@@ -170,9 +170,9 @@ header {
 
     .menu-mobile-menor a {
         display: inline-block;
-        /* margin-right: 20%; */
         color: #0042a3;
         font-size: 14px;
+        text-decoration: none;
         padding: 30px 25px;
         border-radius: 4px;
     }
