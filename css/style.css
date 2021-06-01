@@ -29,7 +29,7 @@ header {
 }
 
 .menu-mobile a,
-.menu-mobile-menor {
+.menu-mobile-menor a {
     display: none;
 }
 
@@ -147,32 +147,33 @@ header {
     }
 
     #conteudo {
-        text-align: center;
-        margin: 0 auto;
-        position: relative;
         max-width: 500px;
-        font-size: 16px;
-        line-height: 1.5;
     }
 }
 
 /* Responsivo para telas de celular */
 @media screen and (max-width: 600px) {
-    .menu {
+
+    .center {
+        max-width: 400px;
+    }
+
+    .menu,
+    .menu-mobile {
         display: none;
     }
 
     .menu-mobile-menor {
-        width: 84%;
+        width: 80%;
         text-align: center;
     }
 
     .menu-mobile-menor a {
         display: inline-block;
+        /* margin-right: 20%; */
         color: #0042a3;
-        font-size: 15px;
-        text-decoration: none;
-        padding: 20px 25px;
+        font-size: 14px;
+        padding: 30px 25px;
         border-radius: 4px;
     }
     
@@ -196,12 +197,14 @@ header {
         padding: 10px 20px;
     }
 
+    .name h1 {
+        margin-top: 25%;
+        margin-left: 20px;
+        font-size: 35px;
+    }
+
     #conteudo {
         text-align: center;
-        margin: 0 auto;
-        position: relative;
         max-width: 400px;
-        font-size: 16px;
-        line-height: 1.5;
     }
 }
