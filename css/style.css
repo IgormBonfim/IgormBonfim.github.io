@@ -5,6 +5,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header da página */
+
 .center {
     max-width: 1100px;
     margin: 0 auto;
@@ -24,6 +26,10 @@ header {
 
 .name h1 {
     font-size: 30px;
+}
+
+.menu-mobile a{
+    display: none;
 }
 
 .menu {
@@ -46,7 +52,6 @@ header {
 }
 
 .menu .botao-contato {
-    text-align: right;
     background-color: #2272d4;
     color: white;
     display: inline-block;
@@ -60,9 +65,83 @@ header {
     padding: 10px 20px;
 }
 
+
+/* Conteudo da página */
+
 #conteudo {
     text-align: center;
     margin: 0 auto;
-    width: 980px;
+    width: 700px;
     position: relative;
+    max-width: 650px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.minhafoto {
+    border-radius: 150px;
+    max-width: 150px;
+}
+
+#meunome {
+    font-size: 35px;
+    margin-top: 10px;
+    color: #0042a3;
+}
+
+#palavrasrelacionadas {
+    font-size: 20px;
+    color: rgb(136, 136, 136);
+}
+
+#sobremim {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.sobremim {
+    margin-top: 15px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+/* Responsivo */
+@media screen and (max-width: 1046px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-mobile {
+        width: 84%;
+        text-align: center;
+    }
+
+    .menu-mobile a {
+        display: inline-block;
+        color: #0042a3;
+        font-size: 15px;
+        text-decoration: none;
+        padding: 20px 25px;
+        border-radius: 4px;
+    }
+    
+    .menu-mobile a:hover {
+        background-color: whitesmoke;
+        padding: 30px 25px;
+        color: #2272d4;
+    }
+
+    .menu-mobile .botao-contato {
+        background-color: #2272d4;
+        color: white;
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+    
+    .menu-mobile .botao-contato:hover {
+        background-color: #0042a3;
+        color: white;
+        padding: 10px 20px;
+    }
 }
