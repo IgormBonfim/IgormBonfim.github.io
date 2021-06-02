@@ -133,31 +133,54 @@ footer{
 
 .contato-footer {
     color: #0042a3;
+    width: 20%;
 }
 
 .contato-footer h1 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
-.footer-contatos{
-    margin-top: 8px;
-    width: 84%;
-    text-align: center;
-}
+    .footer-contatos{
+        /* margin-top: -1px; */
+        width: 84%;
+        text-align: center;
+    }
 
-.footer-contatos a {
-    color: #0042a3;
-    font-size: 15px;
-    text-decoration: none;
-    padding: 20px 25px;
-    
-}
+    .footer-contatos a i {
+        font-size: 20px;
+        margin-right: 10px;
+    }
 
-.footer-contatos a:hover {
-    background-color: whitesmoke;
-    padding: 20px 25px;
-    color: #2272d4;
-}
+    .footer-contatos a {
+        color: #0042a3;
+        font-size: 14px;
+        padding: 24px 20px;
+        text-decoration: none;
+    }
+
+    .footer-contatos a:hover {
+        background-color: rgb(235, 235, 235);
+        padding: 24px 20px;
+        color: #2272d4;
+    }
+
+    /* Icones footer */
+    #icone-whatsapp {
+        color: #25D366;
+    }
+
+    #icone-email {
+        color: rgb(71, 71, 71);
+    }
+
+    #icone-github {
+        color: #24292e;
+    }
+
+    #icone-linkedin {
+        color:#0077b5
+    }
+
 
 
 /* Responsivo */
