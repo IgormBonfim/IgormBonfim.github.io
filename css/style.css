@@ -43,7 +43,6 @@ header {
     font-size: 15px;
     text-decoration: none;
     padding: 20px 25px;
-    border-radius: 4px;
 }
 
 .menu a:hover {
@@ -72,6 +71,7 @@ header {
 #conteudo {
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 30px ;
     width: 700px;
     position: relative;
     max-width: 650px;
@@ -95,16 +95,70 @@ header {
     color: rgb(136, 136, 136);
 }
 
-#sobremim {
+#sobremim,
+#interesses,
+#conhecimentos-basicos,
+#conhecimentos-medianos,
+#contato {
     margin-top: 15px;
     font-size: 30px;
 }
 
-.sobremim {
+.sobremim,
+.interesses,
+.conhecimentos,
+.contato {
     margin-top: 15px;
     text-align: justify;
-    border-radius: 10px;
+    border-radius: 15px;
 }
+
+.paragrafos{
+    margin-top: 10px;
+}
+
+/* Footer */
+
+footer{
+    background-color: white;
+    padding: 20px;
+    border-top: 1px solid #dddddd;
+}
+.footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:0 2%;
+    display: flex;
+}
+
+.contato-footer {
+    color: #0042a3;
+}
+
+.contato-footer h1 {
+    font-size: 30px;
+}
+
+.footer-contatos{
+    margin-top: 8px;
+    width: 84%;
+    text-align: center;
+}
+
+.footer-contatos a {
+    color: #0042a3;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px 25px;
+    
+}
+
+.footer-contatos a:hover {
+    background-color: whitesmoke;
+    padding: 20px 25px;
+    color: #2272d4;
+}
+
 
 /* Responsivo */
 @media screen and (max-width: 1046px) {
