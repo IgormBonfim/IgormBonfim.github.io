@@ -73,11 +73,18 @@ header {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px ;
-    width: 700px;
     position: relative;
     max-width: 650px;
     font-size: 16px;
     line-height: 1.5;
+}
+
+.centralizar {
+    width: 600px;
+    margin: 0 auto;
+    padding:0 1%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .minhafoto {
@@ -86,7 +93,7 @@ header {
 }
 
 #meunome {
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 10px;
     color: #0042a3;
 }
@@ -107,8 +114,7 @@ header {
 
 .sobremim,
 .interesses,
-.conhecimentos,
-.contato {
+.conhecimentos {
     margin-top: 15px;
     text-align: justify;
     border-radius: 15px;
@@ -118,6 +124,75 @@ header {
     margin-top: 10px;
 }
 
+/* Projetos */  
+
+.meus-projetos {
+    width: 100%;
+    text-align: center;
+}
+
+.meus-projetos h2 {
+    color: #0042a3;
+    font-size: 40px;
+}
+
+.meus-projetos p {
+    color: grey;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.imagem-projeto {
+    max-width: 100px;
+    border-radius: 100px;
+}
+
+.projetos {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projetos-unidade {
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    width: 100%;
+}
+
+.projetos-unidade:hover {
+    padding: 40px 40px;
+    transition: 1s;
+}
+
+.projetos-unidade h2 {
+    color: #0042a3;
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.projetos-unidade p {
+    color: grey;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.btn-saiba-mais {
+    margin-top: 10px;
+    background-color: #2272d4;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #0042a3;
+    transition: 0.5s;
+}
 /* Footer */
 
 footer{
