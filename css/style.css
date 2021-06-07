@@ -80,19 +80,20 @@ header {
 }
 
 .centralizar {
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
     padding:0 1%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.minhafoto {
+.imagem-principal {
+    margin-top: 20px;
     border-radius: 150px;
     max-width: 150px;
 }
 
-#meunome {
+#titulo {
     font-size: 40px;
     margin-top: 10px;
     color: #0042a3;
@@ -103,18 +104,12 @@ header {
     color: rgb(136, 136, 136);
 }
 
-#sobremim,
-#interesses,
-#conhecimentos-basicos,
-#conhecimentos-medianos,
-#contato {
+.titulo-paragrafo {
     margin-top: 15px;
     font-size: 30px;
 }
 
-.sobremim,
-.interesses,
-.conhecimentos {
+.topico {
     margin-top: 15px;
     text-align: justify;
     border-radius: 15px;
@@ -193,6 +188,7 @@ header {
     background-color: #0042a3;
     transition: 0.5s;
 }
+
 /* Footer */
 
 footer{
@@ -463,4 +459,10 @@ footer{
     .footer-menu-mobile a:hover{
         padding: 24px 10px;
     }
+}
+
+/* Bot Joshue */
+
+#tecnologiasli {
+    margin-left: 1000px;
 }
