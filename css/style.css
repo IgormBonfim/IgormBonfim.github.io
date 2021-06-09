@@ -463,6 +463,21 @@ footer{
 
 /* Bot Joshue */
 
-#tecnologiasli {
-    margin-left: 1000px;
+.exemplos-projetos {
+    margin-left: 20px;
+}
+
+.exemplos-projetos h4 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.imagem-exemplo {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#fimdacontagem {
+    width: 395px;
 }

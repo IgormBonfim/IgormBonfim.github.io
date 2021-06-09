@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bot Joshue</title>
+    <title>Projetos - Bot Joshue</title>
     <link rel="icon" type="imagem/png" href="/img/icone.ico"/>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -80,15 +80,30 @@
                 <li>Mostrar a fila de músicas que serão tocadas.</li>
                 <li>Remover uma música da fila de reprodução.</li>
             </p>
-            <h3 class="titulo-paragrafo">Comandos</h3>
-            <p>
-                <li>Prefixo + Joshua (tempo) minutos </li>
-
-                Retorno:<br/>
-                <img src="../../img/+joshua5minutos.png" alt="Comandos Joshua (tempo) minutos">
-                Após o tempo 
-            </p>
-        </div> <!--Div Conhecimentos-->
+            <h3 class="titulo-paragrafo">Exemplos:</h3>
+            <div class="exemplos-projetos">
+                <div class="contador-atraso">
+                    <h4>Contagem de tempo e atrasos:</h4>
+                    <p class="paragrafos">
+                        Para esse exemplo usaremos um tempo de 5 minutos.
+                        Nesse caso, o comando seria "+joshua 5 minutos"
+                        (todos os comandos estarão disponiveis na seção Comandos).
+                    </p>
+                    <p class="paragrafos">Utilizando o comando no chat teremos a resposta:</p>
+                    <img class="imagem-exemplo" src="../../img/+joshua5minutos.png" alt="Exemplo de inicio de contagem">
+                    <p class="paragrafos">Após isso, o bot contará um intervalo de 5 minutos (tempo escolhido como exemplo), e depois irá enviar a seguinte mensagem:</p>
+                    <img class="imagem-exemplo" id="fimdacontagem" src="../../img/+joshua5minutosfimcontagem.png" alt="Exemplo de fim da contagem">
+                    <p class="paragrafos">Com o fim da contagem do tempo determinado, o bot irá começar a contagem de atraso, sendo informada de 10 em 10 minutos, com a seguinte mensagem:</p>
+                    <img class="imagem-exemplo" src="../../img/atraso.png" alt="Exemplo de atraso de 10 e 20 minutos">
+                    <p class="paragrafos">Caso o comando "+voltou" seja utilizado o bot irá para de contar, tanto o intervalo informado quanto o tempo de atraso, e irá enviar a seguinte mensagem:</p>
+                    <img class="imagem-exemplo" src="../../img/joshuavoltou.png" alt="Exemplo de comando +voltou">
+                </div> <!--Div Atraso-->
+                <div class="tocador-de-musicas">
+                    <h4>Tocador de músicas:</h4>
+                    <p class="paragrafos"></p>
+                </div>
+            </div>
+        </div> <!--Div Funcionalidades e exemplos-->
     </section> <!--Conteudo da página-->
 
     <footer>
