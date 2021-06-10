@@ -99,7 +99,7 @@ header {
     color: #0042a3;
 }
 
-#palavrasrelacionadas {
+#subtitulo {
     font-size: 20px;
     color: rgb(136, 136, 136);
 }
@@ -153,7 +153,7 @@ header {
     border-radius: 15px;
     padding: 20px 20px;
     margin: 10px 10px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .projetos-unidade:hover {
@@ -422,6 +422,10 @@ footer{
     .footer-menu-mobile a:hover{
         padding: 24px 20px;
     }
+
+    .imagem-exemplo {
+        max-width: 375px;
+    }
 }
 
 @media screen and (max-width: 388px) {
@@ -436,6 +440,10 @@ footer{
 
     .footer-menu-mobile a:hover{
         padding: 24px 15px;
+    }
+
+    .imagem-exemplo {
+        max-width: 325px;
     }
 }
 
@@ -459,6 +467,10 @@ footer{
     .footer-menu-mobile a:hover{
         padding: 24px 10px;
     }
+
+    .imagem-exemplo {
+        max-width: 250px;
+    }
 }
 
 /* Bot Joshue */
@@ -476,8 +488,32 @@ footer{
     margin-top: 10px;
     text-align: center;
     border-radius: 5px;
+    max-width: 100%;
 }
 
-#fimdacontagem {
-    width: 395px;
+.comandos {
+    margin-top: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.comandos h4 {
+    color: #2272d4;
+}
+
+.conteudo-exemplos {
+    text-align: justify;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.comandos:hover .conteudo-exemplos {
+    max-height: 500px;
+    transition: max-height 1.5s ease-in;
+}
+
+#aqui {
+    text-decoration: none;
+    color: #2272d4;
 }

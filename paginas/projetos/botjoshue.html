@@ -44,8 +44,8 @@
     <section id="conteudo">
         <div><img class="imagem-principal" src="/img/discordlogo.png" alt="Discord Logo"></div>
         <div id="titulo"><b>BotJoshue</b></div>
-        <div id="palavrasrelacionadas"><p>Bot para discord usando a biblioteca Discord.js.</p></div>
-        <div class="topico">
+        <div id="subtitulo"><p>Bot para discord usando a biblioteca Discord.js.</p></div>
+        <div class="topico"><!--Div Ideia-->
             <h3 class="titulo-paragrafo">Como surgiu a ideia?</h3>
             <p>
                 A ideia surgiu entre uma brincadeira entre amigos, onde um de nossos amigos sempre dizia que voltaria em 10 minutos,
@@ -58,7 +58,7 @@
                 ver como seria. 
             </p>
         </div> <!--Div Ideia-->
-        <div class="topico">
+        <div class="topico"><!--Div Tecnlogias-->
             <h3 class="titulo-paragrafo">Tecnologias utilizadas</h3>
             <p>
                 <li>JavaScript</li>
@@ -67,7 +67,7 @@
                 <li>Youtube API</li>
             </p>
         </div> <!--Div Tecnologias-->
-        <div class="topico">
+        <div class="topico"> <!--Div Funcionalidades-->
             <h3 class="titulo-paragrafo">Funcionalidades</h3>
             <p>
                 <li>Contar um intervalo de tempo.</li>
@@ -80,8 +80,18 @@
                 <li>Mostrar a fila de músicas que serão tocadas.</li>
                 <li>Remover uma música da fila de reprodução.</li>
             </p>
+        </div> <!--Div Funcionalidades-->
+        <div class="topico"> <!--Div Exemplos-->
             <h3 class="titulo-paragrafo">Exemplos:</h3>
             <div class="exemplos-projetos">
+                <div class="prefixo">
+                    <h4>Observação:</h4>
+                    <p class="paragrafos">
+                        Para estes exemplos usaremos como prefixo dos comandos o Prefixo "+"",
+                        pois foi o prefixo configurado no arquivo config.json, caso baixe o bot e tente utiliza-lo 
+                        o prefixo será o escolhido e configurado por você. 
+                    </p>
+                </div> <!--Div Prefixo-->
                 <div class="contador-atraso">
                     <h4>Contagem de tempo e atrasos:</h4>
                     <p class="paragrafos">
@@ -92,7 +102,7 @@
                     <p class="paragrafos">Utilizando o comando no chat teremos a resposta:</p>
                     <img class="imagem-exemplo" src="../../img/+joshua5minutos.png" alt="Exemplo de inicio de contagem">
                     <p class="paragrafos">Após isso, o bot contará um intervalo de 5 minutos (tempo escolhido como exemplo), e depois irá enviar a seguinte mensagem:</p>
-                    <img class="imagem-exemplo" id="fimdacontagem" src="../../img/+joshua5minutosfimcontagem.png" alt="Exemplo de fim da contagem">
+                    <img class="imagem-exemplo" src="../../img/+joshua5minutosfimcontagem.png" alt="Exemplo de fim da contagem">
                     <p class="paragrafos">Com o fim da contagem do tempo determinado, o bot irá começar a contagem de atraso, sendo informada de 10 em 10 minutos, com a seguinte mensagem:</p>
                     <img class="imagem-exemplo" src="../../img/atraso.png" alt="Exemplo de atraso de 10 e 20 minutos">
                     <p class="paragrafos">Caso o comando "+voltou" seja utilizado o bot irá para de contar, tanto o intervalo informado quanto o tempo de atraso, e irá enviar a seguinte mensagem:</p>
@@ -100,10 +110,213 @@
                 </div> <!--Div Atraso-->
                 <div class="tocador-de-musicas">
                     <h4>Tocador de músicas:</h4>
-                    <p class="paragrafos"></p>
+                    <p class="paragrafos">
+                        Para que o bot toque música, o comando necessário é "+p" seguido da URL do vídeo ou o nome da música,
+                        primeiro adicionaremos uma música utilizando a URL do vídeo. Após isso o bot irá enviar uma mensagem
+                        de resposta e entrar no canal de voz, começando a tocar a música escolhida. Como mostrado na imagem a seguir:
+                    </p>
+                    <img class="imagem-exemplo" src="../../img/musicalink.png" alt="Exemplo de comando +p com URL">
+                    <p class="paragrafos">
+                        Agora adicionaremos uma música na fila de reprodução utilizando o nome da música, nesse caso, o comando seria "+p nome da música". Após isso o bot irá enviar uma mensagem
+                        de resposta e entrar no canal de voz, começando a tocar a música escolhida. Como mostrado na imagem a seguir:</p>
+                    <img class="imagem-exemplo" src="../../img/musicanome.png" alt="Exemplo de comando +p com nome">
+                    <p class="paragrafos">Para pausar uma música o comando necessário é "+pausar", após isso o bot irá enviar uma mensagem sinalizando que a música foi pausada. Como mostrado na imagem a seguir:</p>
+                    <img class="imagem-exemplo" src="../../img/musicapausar.png" alt="Exemplo de comando +pausar">
+                    <p class="paragrafos">Para continuar a reprodução da música é o comando necessário é "+continuar", após isso o bot irá enviar uma mensagem sinalizando que a música irá retornar a ser tocada. Como mostrado na imagem a seguir:</p>
+                    <img class="imagem-exemplo" src="../../img/musicacontinuar.png" alt="Exemplo de comando +continuar">
+                    <p class="paragrafos">O comando necessário para ver a fila de reprodução e as próximas músicas a serem tocadas é "+fila", após isso o bot irá enviar uma mensagem com todas as músicas que estão na fila e seus respectivos índices. Como mostrado na imagem a seguir:</p>
+                    <img class="imagem-exemplo" src="../../img/musicafila.png" alt="Exemplo de comando +fila">
+                    <p class="paragrafos">
+                        O comando necessário para remover uma música da fila de reprodução é "+remover" seguido do indice da música na fila. 
+                        Para esse caso, iremos remover a música "In the end", seu índice é o 2, como visto na imagem anterior, então o comando seria "+remover 2".
+                        Após isso o bot irá enviar uma mensagem sinalizando que a música foi removida. Como mostrado na imagem a seguir:
+                    </p>
+                    <img class="imagem-exemplo" src="../../img/musicaremover.png" alt="Exemplo de comando +remover">
+                    <p class="paragrafos">Agora iremos utilizar o comando "+fila" novamente, para verificarmos se a música foi removida.</p>
+                    <img class="imagem-exemplo" src="../../img/musicafilaremovida.png" alt="Exemplo de comando +fila">
+                    <p class="paragrafos">O comando necessário para limpar a fila de reprodução é "+parar", ele também faz com que a música atual pare de tocar. Após isso o bot irá enviar uma mensagem informando que a fila de reprodução foi limpa. Como mostrado na imagem a seguir:</p>
+                    <img class="imagem-exemplo" src="../../img/musicaparar.png" alt="Exemplo de comando +parar">
+                    <p class="paragrafos">Agora iremos utilizar o comando "+fila" novamente, para verificarmos se a fila está vazia.</p>
+                    <img class="imagem-exemplo" src="../../img/musicafilavazia.png" alt="Exemplo de comando +fila">
+                </div> <!--Div Tocador-->
+            </div>
+        </div> <!--Div Eexemplos-->
+        <div class="topico">
+            <h3 class="titulo-paragrafo">Comandos</h3>
+            <div id="subtitulo">Passe o mouse sobre os comandos para revelar mais informações.</div>
+            <div class="comandos">
+                <h4>Prefixo + entrar</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Comando utilizado para fazer com que o bot entre no canal de voz do 
+                        Discord. (Comando não obrigatório, caso o comando de adicionar 
+                        músicas seja utilizado antes do comando de entrar, o bot entrará 
+                        no canal de voz automaticamente)
+                    </p>
+
+                    <p class="paragrafos"><b>Exemplo:</b> +entrar</p>
+                </div>
+            </div> <!--Div Comandos-->
+            <div class="comandos">
+                <h4>Prefixo + p + URL da música</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Comando utilizado para adicionar uma música na fila de reprodução 
+                        usando a URL do vídeo.
+                    </p>
+
+                    <p class="paragrafos"><b>Exemplo:</b> +p https://www.youtube.com/watch?v=kpz8lpoLvrA</p>
+                </div>
+            </div> <!--Div Comandos-->
+            <div class="comandos">
+                <h4>Prefixo + p + nome da música</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Comando utilizado para adicionar uma música na fila de reprodução
+                        usando o nome do vídeo.
+                    </p>
+
+                    <p class="paragrafos"><b>Exemplo:</b> +p linkin park in the end</p>
+                    <p class="paragrafos"><b>OBS:</b> O bot tocará o primeiro vídeo encontrado na busca pela API do Youtube.</p>
+                </div>
+            </div> <!--Div Comandos-->
+            <div class="comandos">
+                <h4>Prefixo + pausar</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Comando utilizado para fazer com que o bot pause a música que está
+                        sendo tocada no momento.
+                    </p>
+
+                    <p class="paragrafos"><b>Exemplo:</b> +pausar</p>
+                </div>
+            </div> <!--Div Comandos-->
+            <div class="comandos">
+                <h4>Prefixo + continuar</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Comando utilizado para fazer com que o bot volte a tocar a música
+                        que foi pausada.
+                    </p>
+
+                    <p class="paragrafos"><b>Exemplo:</b> +continuar</p>
+                </div>
+            </div> <!--Div Comandos-->
+            <div class="comandos">
+                <h4>Prefixo + proxima</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Comando utilizado para fazer com que o bot encerre a música tocando
+                        atualmente e vá para a próxima música da fila de reprodução.
+                    </p>
+
+                    <p class="paragrafos"><b>Exemplo:</b> +proxima</p>
+                </div>
+            </div> <!--Div Comandos-->
+            <div class="comandos">
+                <h4>Prefixo + fila</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Comando utilizado para fazer com que o bot envie uma mensagem
+                        mostrando todas as músicas da fila de reprodução e seus índices.
+                    </p>
+
+                    <p class="paragrafos"><b>Exemplo:</b> +fila</p>
+                </div>
+            </div> <!--Div Comandos-->
+            <div class="comandos">
+                <h4>Prefixo + remover + indice</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Comando utilizado para fazer com que o remova da fila de reprodução
+                        a música do respectivo indice utilizado.
+                    </p>
+
+                    <p class="paragrafos"><b>Exemplo:</b> +remover 2</p>
+                </div>
+            </div> <!--Div Comandos-->
+            <div class="comandos">
+                <h4>Prefixo + parar</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Comando utilizado para fazer com que o bot pare de tocar a música
+                        tocando atualmente e limpar a fila de reprodução.
+                    </p>
+
+                    <p class="paragrafos"><b>Exemplo:</b> +parar</p>
+                </div>
+            </div> <!--Div Comandos-->
+            <div class="comandos">
+                <h4>Prefixo + sair</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Comando utilizado para fazer com que o bot saia do canal de voz.
+                        Também limpa a fila de reprodução.
+                    </p>
+
+                    <p class="paragrafos"><b>Exemplo:</b> +sair</p>
+                </div>
+            </div> <!--Div Comandos-->
+            <div class="comandos">
+                <h4>Prefixo + joshua (tempo) minutos</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Comando utilizado para fazer com que o bot começe a contar um
+                        intervalo de tempo, determinado na mensagem. (O intervalo de
+                        tempo deve sempre ser escrito em minutos)
+                    </p>
+
+                    <p class="paragrafos"><b>Exemplo:</b> +joshua 120 minutos (2 horas)</p>
+                </div>
+            </div> <!--Div Comandos-->
+            <div class="comandos">
+                <h4>Prefixo + voltou</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Comando utilizado para fazer com que o bot pare a contagem de tempo
+                        ou de atraso.
+                    </p>
+
+                    <p class="paragrafos"><b>Exemplo:</b> +voltou</p>
+                </div>
+            </div> <!--Div Comandos-->
+            <div class="comandos">
+                <h4>Lorem ipsum</h4>
+                <div class="conteudo-exemplos">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum.
+                    </p>
                 </div>
             </div>
-        </div> <!--Div Funcionalidades e exemplos-->
+        </div> <!--Topico Comandos-->
+        <div class="topico"> <!--Topico Utilizar-->
+            <h3 class="titulo-paragrafo">Como utilizar?</h3>
+            <p class="paragrafos">
+                1) O primeiro passo será fazer o download dos arquivos, que estarão disponiveis no GitHub clicando <a id="aqui" href="https://github.com/IgormBonfim/BotJoshue">aqui</a> ou no final da página.
+            </p>
+            <p class="paragrafos">
+                2) O segundo passo será extrair os arquivos do bot em uma pasta. 
+            </p>
+            <p class="paragrafos">
+                3) O terceiro passo será abrir o console e pelo console entrar na pasta extraída. Para exemplo usaremos a pasta no desktop:
+                <img class="imagem-exemplo" src="../../img/abrindopastaconsole.png" alt="Abrindo a pasta do bot pelo console.">
+            </p>
+            <p class="paragrafos">
+                4) O quarto passo será ainda no console digitar npm install. Com isso, todas as dependencias do bot irão ser instaladas. (Vale lembrar que para que isso funcione será necessário ter o Node.js instalado no computador, você pode baixa-lo clicando <a id="aqui" href="https://nodejs.org/en/">aqui</a>.)
+                <img class="imagem-exemplo" src="../../img/npminstall.png" alt="npm install.">
+            </p>
+            <p class="paragrafos">
+                5) O quinto passo será criar um arquivo chamado config.json, assim como o da imagem a seguir, substituindo o "token_discord" pelo token do seu bot que pode ser obtido pelo site do <a id="aqui" href="https://discord.com/developers/docs/intro">Discord</a>. e a "chave_google" pela chave gerada por você, que pode ser gerada no site do <a id="aqui" href="https://console.cloud.google.com">Google</a>.
+                <img class="imagem-exemplo" src="../../img/configjson.png" alt="Config.json">
+
+            </p>
+        </div> <!--Topico Utilizar-->
     </section> <!--Conteudo da página-->
 
     <footer>
