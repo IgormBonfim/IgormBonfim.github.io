@@ -20,8 +20,14 @@ header {
     border-bottom: 1px solid #dddddd;
 }
 
+#logo {
+    text-decoration: none;
+    color: #0042a3;
+}
+
 .name {
     color: #0042a3;
+    display: block;
 }
 
 .name h1 {
@@ -505,15 +511,61 @@ footer{
 .conteudo-exemplos {
     text-align: justify;
     max-height: 0;
+    transition: max-height 1s ease-out;
     overflow: hidden;
+}
+
+.comandos:hover {
+    cursor: context-menu;
 }
 
 .comandos:hover .conteudo-exemplos {
     max-height: 500px;
-    transition: max-height 1.5s ease-in;
+    transition: max-height 1.7s ease-in;
 }
 
 #aqui {
     text-decoration: none;
     color: #2272d4;
+}
+
+.fim {
+    margin-top: 20px;
+    width: 650px;
+}
+
+.btn-voltar {
+    background-color: #2272d4;
+    color: white;
+    border: 2px solid #2272d4;
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 13px;
+}
+
+.btn-voltar:hover {
+    background-color: white;
+    color: #2272d4;
+    transition: 1s;
+}
+
+.btn-github {
+    margin-left: 395px;
+    background-color: #24292e;
+    color: white;
+    padding: 8px;
+    border: 2px solid #24292e;
+    border-radius: 13px;
+    text-decoration: none;
+}
+
+#icone-btn-github {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.btn-github:hover {
+    background-color: white;
+    color: #24292e;
+    transition: 1s;
 }

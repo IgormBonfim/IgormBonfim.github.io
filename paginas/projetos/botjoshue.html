@@ -16,7 +16,7 @@
     <header>
         <div class="center">
             <div class="name">
-                <h1>Igor Bonfim</h1>
+                <a id="logo" href="../../index.html"><h1>Igor Bonfim</h1></a>
             </div>
             <div class="menu">
                 <a class="paginasmenu" href="../sobremim.html">Sobre mim</a>
@@ -141,7 +141,7 @@
                 </div> <!--Div Tocador-->
             </div>
         </div> <!--Div Eexemplos-->
-        <div class="topico">
+        <div class="topico" id="comandos">
             <h3 class="titulo-paragrafo">Comandos</h3>
             <div id="subtitulo">Passe o mouse sobre os comandos para revelar mais informações.</div>
             <div class="comandos">
@@ -280,25 +280,11 @@
                     <p class="paragrafos"><b>Exemplo:</b> +voltou</p>
                 </div>
             </div> <!--Div Comandos-->
-            <div class="comandos">
-                <h4>Lorem ipsum</h4>
-                <div class="conteudo-exemplos">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                        deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-            </div>
         </div> <!--Topico Comandos-->
         <div class="topico"> <!--Topico Utilizar-->
             <h3 class="titulo-paragrafo">Como utilizar?</h3>
             <p class="paragrafos">
-                1) O primeiro passo será fazer o download dos arquivos, que estarão disponiveis no GitHub clicando <a id="aqui" href="https://github.com/IgormBonfim/BotJoshue">aqui</a> ou no final da página.
+                1) O primeiro passo será fazer o download dos arquivos, que estarão disponiveis no GitHub clicando <a id="aqui" target="_blank" href="https://github.com/IgormBonfim/BotJoshue">aqui</a> ou no final da página.
             </p>
             <p class="paragrafos">
                 2) O segundo passo será extrair os arquivos do bot em uma pasta. 
@@ -312,11 +298,21 @@
                 <img class="imagem-exemplo" src="../../img/npminstall.png" alt="npm install.">
             </p>
             <p class="paragrafos">
-                5) O quinto passo será criar um arquivo chamado config.json, assim como o da imagem a seguir, substituindo o "token_discord" pelo token do seu bot que pode ser obtido pelo site do <a id="aqui" href="https://discord.com/developers/docs/intro">Discord</a>. e a "chave_google" pela chave gerada por você, que pode ser gerada no site do <a id="aqui" href="https://console.cloud.google.com">Google</a>.
+                5) O quinto passo será criar um arquivo chamado config.json, assim como o da imagem a seguir, substituindo o "token_discord" pelo token do seu bot que pode ser obtido pelo site do <a id="aqui" target="_blank" href="https://discord.com/developers/docs/intro">Discord</a>. e a "chave_google" pela chave que pode ser gerada no site do <a id="aqui" target="_blank" href="https://console.cloud.google.com">Google</a>.
                 <img class="imagem-exemplo" src="../../img/configjson.png" alt="Config.json">
-
+            </p>
+            <p class="paragrafos">
+                6) O sexto passo será no console, digitar node index.js. Caso a resposta seja "Joshue Bot está online", o bot já está pronto, basta abrir o discord e testa-lo.
+                <img class="imagem-exemplo" src="../../img/nodeindexjs.png" alt="node index.js">
+            </p>
+            <p class="paragrafos">
+                7) E por fim, teste o bot, utilizando os comandos apresentados na seção <a id="aqui" href="#comandos">comandos</a>.
             </p>
         </div> <!--Topico Utilizar-->
+        <div class="fim">
+            <a class="btn-voltar" id="voltar" href="../projetos.html">Voltar</a>
+            <a class="btn-github" href="https://github.com/IgormBonfim/BotJoshue"><i id="icone-btn-github" class="fab fa-github"></i>Ver no GitHub</a>
+        </div>
     </section> <!--Conteudo da página-->
 
     <footer>
