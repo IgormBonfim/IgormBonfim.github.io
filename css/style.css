@@ -103,6 +103,7 @@ header {
     font-size: 40px;
     margin-top: 10px;
     color: #0042a3;
+    font-weight: bold;
 }
 
 #subtitulo {
@@ -123,6 +124,10 @@ header {
 
 .paragrafos{
     margin-top: 10px;
+}
+
+.conhecimento {
+    
 }
 
 /* Projetos */  
