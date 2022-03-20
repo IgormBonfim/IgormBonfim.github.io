@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Header da página */
 
 .center {
@@ -31,7 +35,8 @@ header {
 }
 
 .name h1 {
-    font-size: 30px;
+    font-size: 1.9rem;
+    font-weight: bold;
 }
 
 .menu-mobile a,
@@ -75,7 +80,7 @@ header {
 
 /* Conteudo da página */
 
-#conteudo {
+.conteudo {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px ;
@@ -99,21 +104,22 @@ header {
     max-width: 150px;
 }
 
-#titulo {
+.titulo {
     font-size: 40px;
     margin-top: 10px;
     color: #0042a3;
     font-weight: bold;
 }
 
-#subtitulo {
+.subtitulo {
     font-size: 20px;
     color: rgb(136, 136, 136);
 }
 
 .titulo-paragrafo {
-    margin-top: 15px;
-    font-size: 30px;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    font-size: 2rem;
 }
 
 .topico {
@@ -123,11 +129,7 @@ header {
 }
 
 .paragrafos{
-    margin-top: 10px;
-}
-
-.conhecimento {
-    
+    margin-top: 1rem;
 }
 
 /* Projetos */  
@@ -140,6 +142,7 @@ header {
 .meus-projetos h2 {
     color: #0042a3;
     font-size: 40px;
+    font-weight: bold;
 }
 
 .meus-projetos p {
@@ -162,13 +165,13 @@ header {
 .projetos-unidade {
     background-color: rgb(230, 230, 230);
     border-radius: 15px;
-    padding: 20px 20px;
-    margin: 10px 10px;
+    padding: 1.25rem;
+    margin: 2rem 1rem 0rem;
     max-width: 100%;
 }
 
 .projetos-unidade:hover {
-    padding: 40px 40px;
+    padding: 2rem;
     transition: 1s;
 }
 
@@ -176,6 +179,7 @@ header {
     color: #0042a3;
     margin: 10px 0;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .projetos-unidade p {
@@ -191,7 +195,7 @@ header {
     color: white;
     text-decoration: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0.63rem 1.25rem;
     border-radius: 10px;
 }
 
