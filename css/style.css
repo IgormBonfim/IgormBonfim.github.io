@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
@@ -46,6 +44,7 @@ header {
 
 .menu {
     width: 85%;
+    max-width: 84%;
     text-align: center;
 }
 
@@ -53,7 +52,7 @@ header {
     color: #0042a3;
     font-size: 15px;
     text-decoration: none;
-    padding: 20px 25px;
+    padding: 1.2rem 1.6rem;
 }
 
 .menu a:hover {
@@ -275,6 +274,12 @@ footer{
 /* Responsivo */
 
 @media screen and (min-width: 1024px) {
+    .menu {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
     .menu {
         width: 84%;
     }
