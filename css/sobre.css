@@ -5,9 +5,14 @@
 .topico__titulo {
     font-weight: 600;
     font-size: 2rem;
+    padding-top: 1rem;
 }
 
 .topico__texto {
-    margin-top: .75rem;
+    padding-top: 1rem;
     font-size: 1.2rem;
+}
+
+.topico__texto li {
+    padding-top: .5rem;
 }

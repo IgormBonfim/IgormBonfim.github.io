@@ -47,14 +47,12 @@
     border-radius: 5px;
 }
 
-.cabecalho__link-contato:hover {
-    background-color: var(--azul-escuro);
-    color: white;
-}
 
 @media screen and (min-width: 1024px) {
 
     .cabecalho {
+        padding-top: 0;
+        padding-bottom: 0;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -64,7 +62,23 @@
         margin-top: .75rem;
     }
 
+    .cabecalho__link {
+        padding: 30px 20px;
+        margin: 0;
+    }
+
+    .cabecalho__link:hover {
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+
     .cabecalho__link-contato {
         display: inline-block;
+        padding: .75em;
+    }
+
+    .cabecalho__link-contato:hover {
+        background-color: var(--azul-escuro);
+        color: white;
     }
 }
