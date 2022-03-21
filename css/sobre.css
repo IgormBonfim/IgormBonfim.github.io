@@ -1,0 +1,13 @@
+.topico {
+    text-align: justify;
+}
+
+.topico__titulo {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.topico__texto {
+    margin-top: .75rem;
+    font-size: 1.2rem;
+}

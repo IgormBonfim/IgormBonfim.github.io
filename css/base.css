@@ -1,15 +1,21 @@
 :root {
     --azul-escuro: #0042a3;
     --azul-claro: #2272d4;
+    --cinza: rgb(136, 136, 136)
 }
 
 body {
-    font-family: 'Open-sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     padding-right: 6%;
     padding-left: 6%;
+}
+
+.conteudo {
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 @media screen and (min-width: 1024px) {

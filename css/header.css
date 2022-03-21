@@ -7,7 +7,6 @@
     padding-top: .75rem;
     padding-bottom: .75rem;
     border-bottom: 1px solid #dddddd;
-    position: absolute;
 }
 
 .cabecalho__nome {
@@ -29,7 +28,7 @@
     font-size: 1.1rem;
 
     display: inline-block;
-
+    margin-top: .5rem;
     margin-right: .7rem;
     margin-bottom: 1.25rem;
     margin-left: .7rem;
@@ -38,4 +37,29 @@
 
 .cabecalho__link:hover {
     color: var(--azul-claro);
+}
+
+.cabecalho__link-contato {
+    display: none;
+    background-color: var(--azul-claro);
+    color: white;
+    padding: .75em;
+    border-radius: 5px;
+}
+
+.cabecalho__link-contato:hover {
+    background-color: var(--azul-escuro);
+    color: white;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cabecalho__link-contato {
+        display: inline-block;
+    }
 }
