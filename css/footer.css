@@ -11,6 +11,7 @@
 
 .footer__titulo {
     font-size: 1rem;
+    color: var(--azul-escuro);
 }
 
 .footer__contato {
@@ -24,7 +25,7 @@
 .footer__link {
     display: inline-block;
     padding: 1.4rem 1.2rem;
-        margin: 0;
+    margin: 0;
 }
 
 .footer__link:hover {
@@ -60,6 +61,14 @@
     .footer__contato-desktop {
         text-align: left;
         display: block;
+    }
+
+    .footer__link {
+        color: var(--azul-escuro);
+    }
+
+    .footer__link:hover {
+        color: var(--azul-claro);
     }
 
     .footer__link i {

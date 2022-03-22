@@ -1,7 +1,8 @@
 :root {
     --azul-escuro: #0042a3;
     --azul-claro: #2272d4;
-    --cinza: rgb(136, 136, 136)
+    --cinza: rgb(136, 136, 136);
+    --cinza-escuro: rgb(230, 230, 230)
 }
 
 body {
