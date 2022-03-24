@@ -1,0 +1,110 @@
+.exemplos-projetos {
+    margin-left: 20px;
+}
+
+.exemplos-projetos h4 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.imagem-exemplo {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+
+
+
+.exemplo {
+    padding: 0 1.2rem 1.2rem 1.2rem;
+
+}
+
+.exemplo__imagem {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+#joshua5minutosfimcontagem {
+    display: none;
+}
+
+.comandos {
+    margin-top: 10px;
+    background-color: var(--cinza-escuro);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.comandos h4 {
+    color: #2272d4;
+}
+
+.comandos__exemplos {
+    text-align: justify;
+    max-height: 0;
+    transition: max-height 1s ease-out;
+    overflow: hidden;
+}
+
+.comandos:hover {
+    cursor: context-menu;
+}
+
+.comandos:hover .comandos__exemplos {
+    max-height: 500px;
+    transition: max-height 1.7s ease-in;
+}
+
+#aqui {
+    color: var(--azul-claro);
+}
+
+
+.btn-voltar {
+    background-color: #2272d4;
+    color: white;
+    border: 2px solid #2272d4;
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 13px;
+}
+
+.btn-voltar:hover {
+    background-color: white;
+    color: #2272d4;
+    transition: 1s;
+}
+
+.btn-github {
+    /* margin-left: 61%; */
+    background-color: #24292e;
+    color: white;
+    padding: 8px;
+    border: 2px solid #24292e;
+    border-radius: 13px;
+    text-decoration: none;
+}
+
+
+
+.btn-github:hover {
+    background-color: white;
+    color: #24292e;
+    transition: 1s;
+}
+
+@media screen and (min-width: 768px) {
+
+    #joshua5minutosfimcontagemmobile {
+        display: none;
+    }
+
+    #joshua5minutosfimcontagem {
+        display: inline;
+    }
+}

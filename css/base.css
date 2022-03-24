@@ -2,11 +2,16 @@
     --azul-escuro: #0042a3;
     --azul-claro: #2272d4;
     --cinza: rgb(136, 136, 136);
-    --cinza-escuro: rgb(230, 230, 230)
+    --cinza-escuro: rgb(230, 230, 230);
+    --github: #24292e;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+b {
+    font-weight: 600;
 }
 
 .container {
@@ -17,6 +22,45 @@ body {
 .conteudo {
     margin: 0 auto;
     max-width: 600px;
+}
+
+.botao__projeto {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao__projeto-voltar {
+    background-color: var(--azul-claro);
+    color: white;
+    padding: .75rem 45px;
+    border: 2px solid var(--azul-claro);
+    border-radius: 10px;
+}
+
+.botao__projeto-voltar:hover {
+    background-color: white;
+    color: #2272d4;
+    transition: 1s;
+}
+
+.botao__projeto-github {
+    background-color: var(--github);
+    color: white;
+    padding: .75rem .5rem;
+    border: 2px solid var(--github);
+    border-radius: 10px;
+}
+
+.botao__projeto-github:hover {
+    background-color: white;
+    color: #24292e;
+    transition: 1s;
+}
+
+#icone-botao-github {
+    margin-right: 5px;
+    font-size: 16px;
 }
 
 @media screen and (min-width: 1024px) {
