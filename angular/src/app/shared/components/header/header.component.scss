@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.aba-header:hover {
+  background-color: var(--light);
+}
+
+.ativo {
+  border-bottom: 2px solid var(--secondary);
+}
