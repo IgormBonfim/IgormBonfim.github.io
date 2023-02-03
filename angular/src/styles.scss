@@ -84,7 +84,11 @@ $theme-colors: (
   "danger":     $danger,
   "light":      $light,
   "dark":       $dark,
-  
+
 );
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  background-color: #f0f0f0;
+}

@@ -1,22 +1,25 @@
 import { Projeto } from 'src/app/shared/models/projeto';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ProjetosService } from 'src/app/shared/services/projetos.service';
 
 @Component({
   selector: 'app-listagem-projetos',
   templateUrl: './listagem-projetos.component.html',
   styleUrls: ['./listagem-projetos.component.scss']
 })
-export class ListagemProjetosComponent {
-  public projetos: Projeto[];
+export class ListagemProjetosComponent implements OnInit {
+  public projetos!: Projeto[];
 
-  constructor() {
-    this.projetos = [
-      {
-        titulo: "teste",
-        descricao: "descrição do projeto",
-        linkImagem: "assets/imagens-projetos/discord-logo.png",
-        rota: "botjoshue"
-      },
-    ]
+  constructor(private projetosSerivce: ProjetosService) {
+
   }
+
+  ngOnInit(): void {
+    this.listarProjetos();
+  }
+
+  listarProjetos() {
+    this.projetos = this.projetosSerivce.listarProjetos()
+  }
+
 }

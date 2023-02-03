@@ -1,0 +1,49 @@
+<footer class="mt-5 border-top bg-white">
+  <div class="container">
+    <div class="row text-center">
+
+      <div class="p-3 d-flex align-items-center justify-content-center col-lg-1">
+        <span class="font-weight-bold text-secondary">
+          Contato
+        </span>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center col-lg-3">
+        <a class="p-3" [href]="'https://api.whatsapp.com/send?phone=' + pessoa.telefone">
+          <fa-icon class="text-success px-2" [icon]="iconeWhatsApp"></fa-icon>
+          <span class="text-primary">
+             {{ pessoa.telefone | phone }}
+          </span>
+        </a>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center col-lg-4">
+        <a class="p-3" [href]="'mailto:' + pessoa.email">
+          <fa-icon class="text-secondary px-2" [icon]="iconeEmail"></fa-icon>
+          <span class="text-primary">
+            {{ pessoa.email }}
+          </span>
+        </a>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center col-lg-2">
+        <a class="p-3" href="https://github.com/IgormBonfim" target="_blank">
+          <fa-icon class="text-dark px-2" [icon]="iconeGitHub"></fa-icon>
+          <span class="text-primary">
+            GitHub
+          </span>
+        </a>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center col-lg-2">
+        <a class="p-3" href="https://www.linkedin.com/in/igormbonfim/" target="_blank">
+          <fa-icon style="color: #0077b5;" class="px-2" [icon]="iconeLinkedIn"></fa-icon>
+          <span class="text-primary">
+            LinkedIn
+          </span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</footer>
