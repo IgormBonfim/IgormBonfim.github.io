@@ -1,1 +1,43 @@
-<p>sobre works!</p>
+<app-titulo-paginas
+  [imagemLink]="pessoa.imagem"
+  [titulo]="pessoa.nomeCompleto"
+  subtitulo="Desenvolvedor Full stack"
+></app-titulo-paginas>
+
+<div class="container d-flex justify-content-center">
+  <div style="max-width: 600px;">
+
+    <h2 class="font-weight-bold text-primary">Sobre mim</h2>
+    <p class="text-justify">
+      Meu nome é {{ pessoa.nomeCompleto }}, tenho {{ pessoa.idade }} anos, estou cursando o ultimo semestre de Engenharia Mecânica.
+    </p>
+
+    <h2 class="font-weight-bold text-primary">Resumo</h2>
+    <p class="text-justify">
+      Desenvolvedor Full Stack com experiência em Angular, .Net e linguagem SQL.
+      Comprometido em entregar códigos de qualidade e mantendo sempre os padrões do projeto.
+    </p>
+
+    <h2 class="font-weight-bold text-primary">Objetivo</h2>
+    <p class="text-justify">
+      Atuar como desenvolvedor full stack, colaborando na criação e manutenção de soluções, buscando sempre aprimorar habilidades e conhecimentos, contribuindo para o sucesso da empresa e desenvolvimento profissional.
+    </p>
+
+    <h2 class="font-weight-bold text-primary">Conhecimentos</h2>
+    <div>
+      <img class="pr-3 pb-3" alt="Angular" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
+      <img class="pr-3 pb-3" alt="Dotnet" src="https://img.shields.io/badge/.NET-512bd4?style=for-the-badge&logo=dotnet&logoColor=white">
+      <img class="pr-3 pb-3" alt="MySQL" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
+      <img class="pr-3 pb-3" alt="MySQL" src="https://img.shields.io/badge/Oracle-f80000?style=for-the-badge&logo=oracle&logoColor=white">
+      <img class="pr-3 pb-3" alt="MySQL" src="https://img.shields.io/badge/Mongodb-3fa037?style=for-the-badge&logo=mongodb&logoColor=white">
+      <img class="pr-3 pb-3" alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+      <img class="pr-3 pb-3" alt="C#" src="https://img.shields.io/badge/CSharp-189f20?style=for-the-badge&logo=csharp&logoColor=white">
+    </div>
+
+    <h2 class="font-weight-bold text-primary">Experiências</h2>
+    <div *ngFor="let experiencia of experiencias">
+      <app-experiencia [experiencia]="experiencia"></app-experiencia>
+    </div>
+
+  </div>
+</div>

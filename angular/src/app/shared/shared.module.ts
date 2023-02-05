@@ -7,6 +7,7 @@ import { FooterComponent } from 'src/app/shared/components/footer/footer.compone
 import { HeaderComponent } from 'src/app/shared/components/header/header.component';
 import { ProjetoComponent } from 'src/app/shared/components/projeto/projeto.component';
 import { PhonePipe } from './pipes/phone.pipe';
+import { TituloPaginasComponent } from './components/titulo-paginas/titulo-paginas.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { PhonePipe } from './pipes/phone.pipe';
     HeaderComponent,
     ProjetoComponent,
     FooterComponent,
-    PhonePipe
+    PhonePipe,
+    TituloPaginasComponent
   ],
   imports: [
     CommonModule,
@@ -25,7 +27,8 @@ import { PhonePipe } from './pipes/phone.pipe';
     HeaderComponent,
     ProjetoComponent,
     FooterComponent,
-    PhonePipe
+    PhonePipe,
+    TituloPaginasComponent
   ]
 })
 export class SharedModule { }

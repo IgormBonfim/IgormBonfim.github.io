@@ -1,17 +1,23 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SharedModule } from 'src/app/shared/shared.module';
 
-import { SobreRoutingModule } from './sobre-routing.module';
 import { SobreComponent } from './paginas/sobre/sobre.component';
+import { SobreRoutingModule } from './sobre-routing.module';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 
 
 @NgModule({
   declarations: [
-    SobreComponent
+    SobreComponent,
+    ExperienciaComponent
   ],
   imports: [
     CommonModule,
-    SobreRoutingModule
+    SobreRoutingModule,
+    SharedModule,
+    FontAwesomeModule
   ]
 })
 export class SobreModule { }
