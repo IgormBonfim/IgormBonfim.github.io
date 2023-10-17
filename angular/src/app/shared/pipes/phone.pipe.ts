@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class PhonePipe implements PipeTransform {
 
-  transform(tel: string) {
+  transform(tel: string): string {
     if (tel) {
       const value = tel.toString().replace(/\D/g, '');
 
@@ -33,7 +33,7 @@ export class PhonePipe implements PipeTransform {
       }
       return foneFormatado;
     }
-    return;
+    return tel;
   }
 
 }

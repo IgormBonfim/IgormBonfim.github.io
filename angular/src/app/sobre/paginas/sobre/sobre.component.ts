@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Pessoa } from 'src/app/shared/models/pessoa';
 import { PessoaService } from 'src/app/shared/services/pessoa.service';
 import { ExperienciasService } from 'src/app/sobre/services/experiencias.service';
+import { finalize } from 'rxjs';
 
 @Component({
   selector: 'app-sobre',
@@ -12,7 +13,7 @@ import { ExperienciasService } from 'src/app/sobre/services/experiencias.service
 export class SobreComponent implements OnInit {
 
   public pessoa!: Pessoa;
-  public experiencias!: Experiencia[];
+  public experiencias: Experiencia[] = [];
 
   constructor(
     private pessoaService: PessoaService,
@@ -25,12 +26,16 @@ export class SobreComponent implements OnInit {
     this.recuperarExperiencias();
   }
 
-  recuperarDados() {
+  recuperarDados(): void {
     this.pessoa = this.pessoaService.recuperarDados();
   }
 
-  recuperarExperiencias() {
-    this.experiencias = this.experienciasService.listarExperiencias();
+  recuperarExperiencias(): void {
+    this.experienciasService.listarExperiencias().subscribe({
+      next: (res: Experiencia[]) => {
+        this.experiencias = res;
+      }
+    });
   }
 
 }

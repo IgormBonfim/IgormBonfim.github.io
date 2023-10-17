@@ -1,16 +1,16 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 
-import { ProjetosRoutingModule } from './projetos-routing.module';
-import { ListagemProjetosComponent } from './paginas/listagem-projetos/listagem-projetos.component';
+import { BotjoshueComponent } from 'src/app/projetos/paginas/botjoshue/botjoshue.component';
+import { ListagemProjetosComponent } from 'src/app/projetos/paginas/listagem-projetos/listagem-projetos.component';
+import { ProjetosRoutingModule } from 'src/app/projetos/projetos-routing.module';
 import { SharedModule } from 'src/app/shared/shared.module';
-import { BotjoshueComponent } from './paginas/botjoshue/botjoshue.component';
 
 
 @NgModule({
   declarations: [
     ListagemProjetosComponent,
-    BotjoshueComponent
+    BotjoshueComponent,
   ],
   imports: [
     CommonModule,

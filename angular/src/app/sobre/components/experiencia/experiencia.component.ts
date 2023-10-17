@@ -9,15 +9,13 @@ import { Experiencia } from 'src/app/sobre/models/experiencia';
 })
 export class ExperienciaComponent {
 
-  @Input() experiencia!: Experiencia
+  @Input() experiencia: Experiencia
 
-  empregoAtual() {
-
+  empregoAtual(): boolean {
     let hoje = new Date()
 
-    if (this.experiencia.dataFim.getDate() == hoje.getDate()) {
-      return true
-    }
-    return false;
+    if(typeof this.experiencia.dataFim != typeof Object) return false
+
+    return this.experiencia.dataFim.getDate() == hoje.getDate();
   }
 }

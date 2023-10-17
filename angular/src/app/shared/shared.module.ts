@@ -6,9 +6,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from 'src/app/shared/components/footer/footer.component';
 import { HeaderComponent } from 'src/app/shared/components/header/header.component';
 import { ProjetoComponent } from 'src/app/shared/components/projeto/projeto.component';
-import { PhonePipe } from './pipes/phone.pipe';
 import { TituloPaginasComponent } from './components/titulo-paginas/titulo-paginas.component';
 import { WipComponent } from './components/wip/wip.component';
+import { PhonePipe } from './pipes/phone.pipe';
 
 
 @NgModule({
@@ -23,14 +23,15 @@ import { WipComponent } from './components/wip/wip.component';
   imports: [
     CommonModule,
     RouterModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   exports: [
     HeaderComponent,
     ProjetoComponent,
     FooterComponent,
     PhonePipe,
-    TituloPaginasComponent
+    TituloPaginasComponent,
+    WipComponent
   ]
 })
 export class SharedModule { }

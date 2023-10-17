@@ -1,0 +1,39 @@
+[
+  {
+    "titulo": "BotJoshue",
+    "descricao": "Um bot para o Discord desenvolvido utilizando JavaScript, Node.js, Discord.js e Youtube API.",
+    "linkImagem": "assets/imagens-projetos/discord-logo.png",
+    "rota": "wip"
+  },
+  {
+    "titulo": "CRUD Gerenciamento de Funcionários",
+    "descricao": "Um projeto CRUD desenvolvido com Angular, Java, Spring e MySQl.",
+    "linkImagem": "assets/imagens-projetos/gerenciamento-funcionarios-logo.png",
+    "rota": "wip"
+  },
+  {
+    "titulo": "Pokedex",
+    "descricao": "Projeto de uma Pokedex desenvolvido utilizando Angular e a PokéApi.",
+    "linkImagem": "assets/imagens-projetos/pokedex-logo.png",
+    "rota": "https://igormbonfim.github.io/Angular-Pokedex/",
+    "linkExterno": true
+  },
+  {
+    "titulo": "Challenge Backend Finanças",
+    "descricao": "Projeto desenvolvido durante a terceira edição do Challenge backend da Alura. Desenvolvido em C#, Asp.Net e MySQL.",
+    "linkImagem": "assets/imagens-projetos/challenge-financas-logo.png",
+    "rota": "wip"
+  },
+  {
+    "titulo": "Quasar E-commerce",
+    "descricao": "Projeto E-commerce desenvolvido em equipe para o aprendizado. Utilizando Angular para o front-end e C# para o back-end.",
+    "linkImagem": "assets/imagens-projetos/quasar-logo.png",
+    "rota": "wip"
+  },
+  {
+    "titulo": "AluraFlix",
+    "descricao": "Projeto desenvolvido durante a quinta edição do challenge backend da Alura. Desenvolvido utilizando Angular, C#, Asp.Net e MySQL.",
+    "linkImagem": "assets/imagens-projetos/aluraflix-logo.png",
+    "rota": "wip"
+  }
+]

@@ -7,7 +7,6 @@ import { SobreComponent } from './paginas/sobre/sobre.component';
 import { SobreRoutingModule } from './sobre-routing.module';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 
-
 @NgModule({
   declarations: [
     SobreComponent,
@@ -17,7 +16,7 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     CommonModule,
     SobreRoutingModule,
     SharedModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ]
 })
 export class SobreModule { }

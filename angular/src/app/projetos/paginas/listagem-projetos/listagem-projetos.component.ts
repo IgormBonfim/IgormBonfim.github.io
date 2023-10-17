@@ -8,18 +8,20 @@ import { ProjetosService } from 'src/app/shared/services/projetos.service';
   styleUrls: ['./listagem-projetos.component.scss']
 })
 export class ListagemProjetosComponent implements OnInit {
-  public projetos!: Projeto[];
+  public projetos: Projeto[] = [];
 
-  constructor(private projetosSerivce: ProjetosService) {
-
-  }
+  constructor(private projetosSerivce: ProjetosService) { }
 
   ngOnInit(): void {
     this.listarProjetos();
   }
 
   listarProjetos() {
-    this.projetos = this.projetosSerivce.listarProjetos()
+    this.projetosSerivce.listarProjetos().subscribe({
+      next: (res: Projeto[]) => {
+        this.projetos = res;
+      }
+    });
   }
 
 }
