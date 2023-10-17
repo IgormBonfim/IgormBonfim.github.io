@@ -18,7 +18,8 @@ const projetos: Projeto[] = [
     titulo: "Pokedex",
     descricao: "Projeto de uma Pokedex desenvolvido utilizando Angular e a PokéApi.",
     linkImagem: "assets/imagens-projetos/pokedex-logo.png",
-    rota: "pokedex"
+    rota: "https://igormbonfim.github.io/Angular-Pokedex/",
+    linkExterno: true
   },
   {
     titulo: "Challenge Backend Finanças",

@@ -2,6 +2,7 @@
   <img width="100" height="100" class="rounded-circle" [src]="projeto.linkImagem" alt="Imagem do projeto">
     <h3 class="text-secondary text-center font-weight-bold" > {{ projeto.titulo }} </h3>
     <p class="p-2 text-muted text-justify"> {{ projeto.descricao }} </p>
-  <a class="mt-2 py-2 px-3 btn btn-primary" [routerLink]="['/projetos/', projeto.rota]">Saiba Mais</a>
+  <a class="mt-2 py-2 px-3 btn btn-primary" *ngIf="!projeto.linkExterno" [routerLink]="['/projetos/', projeto.rota]">Saiba Mais</a>
+  <a class="mt-2 py-2 px-3 btn btn-primary" *ngIf="projeto.linkExterno" [href]="projeto.rota">Saiba Mais</a>
 </div>
 

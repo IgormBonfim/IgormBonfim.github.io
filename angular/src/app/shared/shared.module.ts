@@ -8,6 +8,7 @@ import { HeaderComponent } from 'src/app/shared/components/header/header.compone
 import { ProjetoComponent } from 'src/app/shared/components/projeto/projeto.component';
 import { PhonePipe } from './pipes/phone.pipe';
 import { TituloPaginasComponent } from './components/titulo-paginas/titulo-paginas.component';
+import { WipComponent } from './components/wip/wip.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { TituloPaginasComponent } from './components/titulo-paginas/titulo-pagin
     ProjetoComponent,
     FooterComponent,
     PhonePipe,
-    TituloPaginasComponent
+    TituloPaginasComponent,
+    WipComponent
   ],
   imports: [
     CommonModule,

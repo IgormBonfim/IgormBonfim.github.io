@@ -17,7 +17,6 @@ export class PessoaService {
   constructor() { }
 
   public recuperarDados() : Pessoa {
-    console.log(igor);
     return igor;
   }
 
