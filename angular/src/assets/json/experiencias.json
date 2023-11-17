@@ -1,10 +1,17 @@
 [
   {
-    "cargo": "Desenvolvedor Full Stack",
+    "cargo": "Caixa Web - Desenvolvedor Full-Stack",
     "empresa": "Autoglass",
     "imagemEmpresa": "assets/imagens-experiencias/autoglass-logo.jpg",
     "dataInicio": "2022-06-20",
-    "descricao": "Atuo no desenvolvimento do produto de faturamento da empresa. Utilizando .Net, Angular, Oracle, Também utilizamos outras tecnologias como AWS SQS, Kafka. Utilizando os princípios do DDD (Domain Driven Design), e a Arquitetura Hexagonal (Ports & Adapters). Além disso utilizamos metodologias ágeis, como Scrum e Kanban, para gerenciar o fluxo de trabalho."
+    "descricao": "Atuo no time de desenvolvimento do produto de faturamento e emissão de notas da empresa utilizando .Net, Angular, Oracle e Kafka. Aplicação dos princípios de Design Orientado a Domínio (DDD) e Clean Architecture. Utilização de metodologias ágeis, incluindo Scrum e Kanban, para o gerenciamento de projetos."
+  },
+  {
+    "cargo": "Gestão de Risco ao Crédito - Desenvolvedor Full-Stack",
+    "empresa": "Autoglass",
+    "imagemEmpresa": "assets/imagens-experiencias/autoglass-logo.jpg",
+    "dataInicio": "2022-06-20",
+    "descricao": "Atuei no time de desenvolvimento do produto de análise de crédito financeiro utilizando .Net, Angular, MongoDB, SQS. Desempenhei um papel crucial no desenvolvimento do processo de análise automatizada, implementando o processo assíncrono de fila com o SQS. E na reestruturação do armazenamento de anexos. Além disso, utilizávamos a metodologia ágil Scrum."
   },
   {
     "cargo": "Analista de suporte de TI",

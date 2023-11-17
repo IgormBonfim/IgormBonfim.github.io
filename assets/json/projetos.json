@@ -1,8 +1,20 @@
 [
   {
-    "titulo": "BotJoshue",
-    "descricao": "Um bot para o Discord desenvolvido utilizando JavaScript, Node.js, Discord.js e Youtube API.",
-    "linkImagem": "assets/imagens-projetos/discord-logo.png",
+    "titulo": "PicPayChallenge",
+    "descricao": "Desafio técnico no PicPay, incluindo implementação do Kafka e integração com o PagSeguro para diversos métodos de pagamento.",
+    "linkImagem": "assets/imagens-projetos/picpay.webp",
+    "rota": "wip"
+  },
+  {
+    "titulo": "Quasar E-commerce",
+    "descricao": "Projeto E-commerce desenvolvido em equipe para o aprendizado. Utilizando Angular para o front-end e C# para o back-end.",
+    "linkImagem": "assets/imagens-projetos/quasar-logo.png",
+    "rota": "wip"
+  },
+  {
+    "titulo": "AluraFlix",
+    "descricao": "Projeto desenvolvido durante a quinta edição do challenge backend da Alura. Desenvolvido utilizando Angular, C#, Asp.Net e MySQL.",
+    "linkImagem": "assets/imagens-projetos/aluraflix-logo.png",
     "rota": "wip"
   },
   {
@@ -25,15 +37,9 @@
     "rota": "wip"
   },
   {
-    "titulo": "Quasar E-commerce",
-    "descricao": "Projeto E-commerce desenvolvido em equipe para o aprendizado. Utilizando Angular para o front-end e C# para o back-end.",
-    "linkImagem": "assets/imagens-projetos/quasar-logo.png",
-    "rota": "wip"
-  },
-  {
-    "titulo": "AluraFlix",
-    "descricao": "Projeto desenvolvido durante a quinta edição do challenge backend da Alura. Desenvolvido utilizando Angular, C#, Asp.Net e MySQL.",
-    "linkImagem": "assets/imagens-projetos/aluraflix-logo.png",
+    "titulo": "BotJoshue",
+    "descricao": "Um bot para o Discord desenvolvido utilizando JavaScript, Node.js, Discord.js e Youtube API.",
+    "linkImagem": "assets/imagens-projetos/discord-logo.png",
     "rota": "wip"
   }
 ]
