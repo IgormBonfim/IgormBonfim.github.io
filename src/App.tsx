@@ -1,33 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState } from 'react';
 import './App.css'
+import { useTranslation } from "react-i18next";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const { t, i18n: {changeLanguage, language} } = useTranslation();
+  const [currentLanguage, setCurrentLanguage] = useState(language)
+
+  const handleChangeLanguage = () => {
+    const newLanguage = currentLanguage === "ptBr" ? "enUs" : "ptBr";
+    setCurrentLanguage(newLanguage);
+    changeLanguage(newLanguage);
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <main className="flex min-h-screen flex-col items-center justify-center text-3xl font-bold">
+        <h1>Bien Venido</h1>
+        <div>
+          <h2>
+            Teste:
+            {t('specificKey')}
+          </h2>
+          <button className="px-4 py-2 bg-gray-500 text-blue-600	" type='button' onClick={handleChangeLanguage}>Trocar</button>
+        </div>
+      </main>
     </>
   )
 }
