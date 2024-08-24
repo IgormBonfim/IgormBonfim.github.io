@@ -9,7 +9,7 @@ export default function Sobre() {
     return (
         <section className="border-b border-neutral-900 pb-4 lg:mb-36">
             <div className="flex flex-col items-center gap-4">
-                <img src={IMG_URL} alt="" className="rounded-full max-w-64"/>
+                <img src={IMG_URL} alt="Imagem de Igor Bonfim" className="rounded-full max-w-64"/>
                 <h2 className="text-3xl">{t(CARGO)}</h2>
                 <p className="my-2 max-w-xl py-4 font-light text-justify ">
                     {t(SOBRE)}

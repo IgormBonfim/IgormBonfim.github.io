@@ -1,7 +1,7 @@
-import Navbar from "../../components/Navbar/Navbar";
 import Sobre from "../../components/Sobre/Sobre";
 import Tecnologias from "../../components/Tecnologias/Tecnologias";
 import Experiencias from "../../components/Experiencias/Experiencias";
+import Projetos from "../../components/Projetos/Projetos";
 
 export default function Home() {
     // const { t, i18n: {changeLanguage, language} } = useTranslation();
@@ -14,23 +14,11 @@ export default function Home() {
     // }
 
     return (
-        <div className="container mx-auto px-8">
-            <Navbar></Navbar>
-            <main >
-                <Sobre></Sobre>
-                <Tecnologias></Tecnologias>
-                <Experiencias></Experiencias>
-            </main>
-            {/* <main >
-                <h1>Bien Venido</h1>
-                <div>
-                    <h2>
-                        Teste:
-                        {t('specificKey')}
-                    </h2>
-                    <button className="px-4 py-2 bg-gray-500 text-blue-600 rounded" type='button' onClick={handleChangeLanguage}>Trocar</button>
-                </div>
-            </main> */}
-        </div>
+        <>
+            <Sobre></Sobre>
+            <Tecnologias></Tecnologias>
+            <Experiencias></Experiencias>
+            <Projetos></Projetos>
+        </>
     )
 }

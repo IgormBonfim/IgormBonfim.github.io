@@ -1,7 +1,8 @@
-import { experiencia } from "../types/experienca";
+import { Experiencia } from "../types/experienca";
+import { Projeto } from "../types/projeto";
 
 
-export const EXPERIENCIAS: experiencia[] = [
+export const EXPERIENCIAS: Experiencia[] = [
     {
         ano: "caixa-web.ano",
         cargo: "caixa-web.cargo",
@@ -23,4 +24,6 @@ export const EXPERIENCIAS: experiencia[] = [
         descricao: "aksie.descricao",
         tecnologias: ["TypeScript", "Angular", "SASS"]
     }
-]
+];
+
+export const PROJETOS: Projeto[] = [];

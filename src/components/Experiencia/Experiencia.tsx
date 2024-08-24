@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next"
-import { experiencia } from "../../types/experienca";
+import { Experiencia as ExperienciaType } from "../../types/experienca";
 import TecnologiaExperiencia from "./TecnologiaExperiencia";
 
 interface ExperienciaProps {
     index: number
-    experiencia: experiencia,
+    experiencia: ExperienciaType,
 }
 
 export default function Experiencia({index, experiencia}: ExperienciaProps) {
@@ -21,7 +21,7 @@ export default function Experiencia({index, experiencia}: ExperienciaProps) {
                     <span className="text-sm font-bold text-blue-800">
                         {t(experiencia.empresa)}
                     </span>
-                <p className="mb-4 text-neutral-400"> {t(experiencia.descricao)} </p>
+                <p className="mb-4 text-neutral-400 text-justify"> {t(experiencia.descricao)} </p>
                 {experiencia.tecnologias.map((tecnologia, index) => (<TecnologiaExperiencia {...{index, tecnologia}} ></TecnologiaExperiencia>))}
             </div>
         </section>
