@@ -17,7 +17,7 @@ export default function Tecnologias() {
     const { t } = useTranslation();
     return (
         <section className="border-b border-neutral-900 pb-4 lg:mb-36">
-            <h1 className="my-20 text-center text-3xl">{t('tecnologias')}</h1>
+            <h2 className="my-20 text-center text-3xl">{t('tecnologias')}</h2>
             <article className="flex flex-wrap items-center justify-center gap-4">
                 <Tecnologia>
                     <SiCsharp className="text-6xl text-violet-800"></SiCsharp>

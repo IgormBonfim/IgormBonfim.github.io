@@ -2,6 +2,25 @@
   "translation": {
       "cargo": "Desenvolvedor de Software",
       "sobre": "Desenvolvedor Full-Stack com 3 anos de experiência, pós graduado em arquitetura de software. Possuo experiência no desenvolvimento de API's utilizando C# e .Net, Design Orientado a Domínio (DDD), Clean Architecture e Microsserviços, SQL, MongoDB. Também tenho conhecimento em tecnologias como Kafka, Docker, AWS e ferramentas de CI/CD. Além disso, possuo experiência no desenvolvimento de interfaces visuais utilizando TypeScript, JavaScript, Angular e React.",
-      "tecnologias": "Tecnologias"
+      "tecnologias": "Tecnologias",
+      "experiencias": "Experiências",
+      "caixa-web": {
+        "cargo": "Caixa Web - Desenvolvedor Full-Stack",
+        "ano": "Junho, 2023 - Atualmente",
+        "empresa": "Autoglass",
+        "descricao": "Atuo no time de desenvolvimento do produto de faturamento e emissão de notas da empresa utilizando .Net, Angular, Oracle e Kafka. Aplicação dos princípios de Design Orientado a Domínio (DDD) e Clean Architecture. Utilização de metodologias ágeis, incluindo Scrum e Kanban, para o gerenciamento de projetos."
+      },
+      "grc": {
+        "cargo": "Caixa Web - Desenvolvedor Full-Stack",
+        "ano": "Junho, 2022 - Junho, 2023",
+        "empresa": "Autoglass",
+        "descricao": "Atuei no time de desenvolvimento do produto de análise de crédito financeiro utilizando .Net, Angular, MongoDB, SQS. Desempenhei um papel crucial no desenvolvimento do processo de análise automatizada, implementando o processo assíncrono de fila com o SQS. E na reestruturação do armazenamento de anexos. Além disso, utilizávamos a metodologia ágil Scrum."
+      },
+      "aksie": {
+        "cargo": "Aksie - Desenvolvedor Front-end",
+        "ano": "Março, 2023 - Julho, 2023",
+        "empresa": "Freelance",
+        "descricao": "Atuei como desenvolvedor Front-end para uma plataforma de gerenciamento contábil. Utilizando as tecnologias Angular, TypeScript, SASS."
+      }
   }
 }

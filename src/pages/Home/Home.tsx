@@ -1,8 +1,7 @@
-import { useTranslation } from "react-i18next";
 import Navbar from "../../components/Navbar/Navbar";
-import { useState } from "react";
 import Sobre from "../../components/Sobre/Sobre";
 import Tecnologias from "../../components/Tecnologias/Tecnologias";
+import Experiencias from "../../components/Experiencias/Experiencias";
 
 export default function Home() {
     // const { t, i18n: {changeLanguage, language} } = useTranslation();
@@ -20,6 +19,7 @@ export default function Home() {
             <main >
                 <Sobre></Sobre>
                 <Tecnologias></Tecnologias>
+                <Experiencias></Experiencias>
             </main>
             {/* <main >
                 <h1>Bien Venido</h1>
