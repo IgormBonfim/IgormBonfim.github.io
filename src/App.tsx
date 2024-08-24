@@ -1,30 +1,11 @@
-import { useState } from 'react';
 import './App.css'
-import { useTranslation } from "react-i18next";
+import Home from './pages/Home/Home';
 
 function App() {
-  const { t, i18n: {changeLanguage, language} } = useTranslation();
-  const [currentLanguage, setCurrentLanguage] = useState(language)
-
-  const handleChangeLanguage = () => {
-    const newLanguage = currentLanguage === "ptBr" ? "enUs" : "ptBr";
-    setCurrentLanguage(newLanguage);
-    changeLanguage(newLanguage);
-  }
-
   return (
-    <>
-      <main className="flex min-h-screen flex-col items-center justify-center text-3xl font-bold">
-        <h1>Bien Venido</h1>
-        <div>
-          <h2>
-            Teste:
-            {t('specificKey')}
-          </h2>
-          <button className="px-4 py-2 bg-gray-500 text-blue-600	" type='button' onClick={handleChangeLanguage}>Trocar</button>
-        </div>
-      </main>
-    </>
+    <main className="w-full h-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+      <Home></Home>
+    </main>
   )
 }
 
