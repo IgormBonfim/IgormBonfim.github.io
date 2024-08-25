@@ -30,23 +30,23 @@ export const EXPERIENCIAS: Experiencia[] = [
 ];
 
 const projetoQuasar: Projeto = {
-  titulo: "Quasar E-Commerce",
+  titulo: "projetos.quasar.titulo",
   imagem: quasar,
-  descricao: "Projeto E-commerce desenvolvido em equipe para o aprendizado. Utilizando Angular para o front-end e C# para o back-end.",
+  descricao: "projetos.quasar.descricao",
   tecnologias: ["C#", ".Net", "Angular", "MySQL"],
 };
 
 const projetoPicPay: Projeto = {
-  titulo: "PicPayChallenge",
+  titulo: "projetos.PicPayChallenge.titulo",
   imagem: picpaychallenge,
-  descricao:"Desafio técnico no PicPay, incluindo implementação do Kafka e integração com o PagSeguro para diversos métodos de pagamento.",
+  descricao:"projetos.PicPayChallenge.descricao",
   tecnologias: ["C#", ".Net", "React", "Next.js", "MySQL", "Kafka"],
 };
 
 const projetoAluralfix: Projeto = {
-  titulo: "Aluraflix",
+  titulo: "projetos.Aluraflix.titulo",
   imagem: aluraflix,
-  descricao: "Projeto desenvolvido durante a quinta edição do challenge backend da Alura. Desenvolvido utilizando Angular, C#, Asp.Net e MySQL.",
+  descricao: "projetos.Aluraflix.descricao",
   tecnologias: ["C#", ".Net", "MySQL", "Angular", "HTML", "CSS"],
 };
 

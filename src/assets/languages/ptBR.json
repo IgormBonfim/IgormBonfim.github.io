@@ -4,7 +4,7 @@
       "sobre": "Desenvolvedor Full-Stack com 3 anos de experiência, pós graduado em arquitetura de software. Possuo experiência no desenvolvimento de API's utilizando C# e .Net, Design Orientado a Domínio (DDD), Clean Architecture e Microsserviços, SQL, MongoDB. Também tenho conhecimento em tecnologias como Kafka, Docker, AWS e ferramentas de CI/CD. Além disso, possuo experiência no desenvolvimento de interfaces visuais utilizando TypeScript, JavaScript, Angular e React.",
       "tecnologias": "Tecnologias",
       "experiencias": "Experiências",
-      "projetos": "Projetos",
+      "tituloProjetos": "Projetos em destaque",
       "notfound": "Página não encontrada",
       "caixa-web": {
         "cargo": "Caixa Web - Desenvolvedor Full-Stack",
@@ -23,6 +23,20 @@
         "ano": "Março, 2023 - Julho, 2023",
         "empresa": "Freelance",
         "descricao": "Atuei como desenvolvedor Front-end para uma plataforma de gerenciamento contábil. Utilizando as tecnologias Angular, TypeScript, SASS."
+      },
+      "projetos": {
+        "quasar": {
+          "titulo": "Quasar E-Commerce",
+          "descricao": "Projeto E-commerce desenvolvido em equipe para o aprendizado. Utilizando Angular para o front-end e C# para o back-end."
+        },
+        "PicPayChallenge": {
+          "titulo": "PicPayChallenge",
+          "descricao": "Desafio técnico no PicPay, incluindo implementação do Kafka e integração com o PagSeguro para diversos métodos de pagamento."
+        },
+        "Aluraflix": {
+          "titulo": "Aluraflix",
+          "descricao": "Projeto desenvolvido durante a quinta edição do challenge backend da Alura. Desenvolvido utilizando Angular, C#, Asp.Net e MySQL."
+        }
       }
   }
 }

@@ -6,7 +6,7 @@ import enUSJSON from '.././assets/languages/enUs.json'
 i18n.use(initReactI18next).init({
  resources: {
     ptBR: { ...ptBRJSON },
-    enUU: { ...enUSJSON }
+    enUS: { ...enUSJSON }
  }, // Where we're gonna put translations' files
  lng: "ptBR",     // Set the initial language of the App
 });

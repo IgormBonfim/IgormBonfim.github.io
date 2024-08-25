@@ -18,8 +18,8 @@ export default function Projeto({ index, projeto }: ProjetoProps) {
             <div className="flex flex-wrap gap-2">
                 {projeto.tecnologias.map((tecnologia, index) => (<TecnologiaTag {...{index, tecnologia}}/>))}
             </div>
-            <h4 className="mt-2 font-bold text-xl text-blue-500 group-hover:text-blue-700">{projeto.titulo}</h4>
-            <p className="py-2 font-light text-justify tracking-tighter">{projeto.descricao}</p>
+            <h4 className="mt-2 font-bold text-xl text-blue-700 group-hover:text-blue-500">{t(projeto.titulo)}</h4>
+            <p className="py-2 font-light text-justify tracking-tighter">{t(projeto.descricao)}</p>
         </div>
     )
 }
