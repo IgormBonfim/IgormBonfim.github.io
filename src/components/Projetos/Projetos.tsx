@@ -7,7 +7,7 @@ export default function Projetos() {
 
     const { t } = useTranslation();
     return (
-        <section className="border-b border-neutral-900 pb-4 lg:mb-36">
+        <section className="pb-4 lg:mb-36">
             <h2 className="my-20 text-center text-3xl">{t('tituloProjetos')}</h2>
             <div className="mb-4 flex flex-wrap items-center justify-center gap-4">
                 {PROJETOS_EM_DESTAQUE.map((projeto, index) => (
