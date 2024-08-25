@@ -1,6 +1,6 @@
 export type Projeto = {
     titulo: string,
-    image: string,
+    imagem: string,
     descricao: string,
     tecnologias: string[]
 }
