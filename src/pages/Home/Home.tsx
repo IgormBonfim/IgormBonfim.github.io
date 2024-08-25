@@ -3,7 +3,7 @@ import Tecnologias from "../../components/Tecnologias/Tecnologias";
 import Experiencias from "../../components/Experiencias/Experiencias";
 import Projetos from "../../components/Projetos/Projetos";
 
-export default function Home() {
+export default function HomePage() {
     // const { t, i18n: {changeLanguage, language} } = useTranslation();
     // const [currentLanguage, setCurrentLanguage] = useState(language)
   

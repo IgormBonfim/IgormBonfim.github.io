@@ -4,9 +4,9 @@ import App from './App.tsx'
 import './index.css'
 import './configs/tradutor.ts'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from './pages/Home/Home.tsx'
-import Projetos from './pages/Projetos/Projetos.tsx'
 import ErrorPage from './pages/Error/ErrorPage.tsx'
+import ProjetosPage from './pages/Projetos/Projetos.tsx'
+import HomePage from './pages/Home/Home.tsx'
 
 const router = createBrowserRouter([
   {
@@ -16,11 +16,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home/>
+        element: <HomePage/>
       },
       {
         path: "projetos",
-        element: <Projetos/>
+        element: <ProjetosPage/>
       },
     ]
   },
