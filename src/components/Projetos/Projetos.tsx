@@ -11,7 +11,7 @@ export default function Projetos() {
             <h2 className="my-20 text-center text-3xl">{t('tituloProjetos')}</h2>
             <div className="mb-4 flex flex-wrap items-center justify-center gap-4">
                 {PROJETOS_EM_DESTAQUE.map((projeto, index) => (
-                    <Projeto {...{index, projeto}}/>
+                    <Projeto key={index} {...projeto}/>
                 ))}
             </div>
             <div className="flex justify-center">

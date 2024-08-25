@@ -10,7 +10,7 @@ export default function Experiencias() {
             <h2 className="my-20 text-center text-3xl">{t('experiencias')}</h2>
             <div className="flex flex-col items-center justify-center gap-4">
                 {EXPERIENCIAS.map((experiencia, index) => (
-                    <Experiencia {...{index, experiencia}}></Experiencia>
+                    <Experiencia key={index} {...experiencia} ></Experiencia>
                 ))}
             </div>
         </section>

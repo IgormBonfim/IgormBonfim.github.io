@@ -2,16 +2,11 @@ import { useTranslation } from "react-i18next"
 import { Experiencia as ExperienciaType } from "../../types/experienca";
 import TecnologiaTag from "../TecnologiaTag/TecnologiaTag";
 
-interface ExperienciaProps {
-    index: number
-    experiencia: ExperienciaType,
-}
-
-export default function Experiencia({index, experiencia}: ExperienciaProps) {
+export default function Experiencia(experiencia: ExperienciaType) {
 
     const { t } = useTranslation();
     return (
-        <article key={index} className="mb-8 flex flex-wrap lg:justify-center">
+        <article className="mb-8 flex flex-wrap lg:justify-center">
             <div className="w-full lg:w-1/4">
                 <p className="mb-2 text-sm text-neutral-400">{t(experiencia.ano)}</p>
             </div>
@@ -22,7 +17,7 @@ export default function Experiencia({index, experiencia}: ExperienciaProps) {
                         {t(experiencia.empresa)}
                     </span>
                 <p className="mb-4 text-neutral-400 text-justify"> {t(experiencia.descricao)} </p>
-                {experiencia.tecnologias.map((tecnologia, index) => (<TecnologiaTag {...{index, tecnologia}} ></TecnologiaTag>))}
+                {experiencia.tecnologias.map((tecnologia, index) => (<TecnologiaTag key={index} {...{tecnologia}} ></TecnologiaTag>))}
             </div>
         </article>
     )
