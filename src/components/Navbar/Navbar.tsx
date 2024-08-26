@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <header className="mb-20 py-8 flex items-center justify-between">
             <h1 className="font-bold bg-gradient-to-r from-sky-500 to-blue-800 bg-clip-text text-xl sm:text-4xl tracking-tight text-transparent p-1">
-                <Link to="/home">
+                <Link to="/">
                     Igor Bonfim
                 </Link>
             </h1>
