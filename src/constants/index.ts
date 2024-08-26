@@ -1,7 +1,7 @@
 import { Experiencia } from "../types/experienca";
 import { Projeto } from "../types/projeto";
 import quasar from '../assets/Images/Quasar.png'
-import aluraflix from '../assets/Images/aluraflix.png'
+import aluraflix from '../assets/Images/Aluraflix.png'
 import picpaychallenge from '../assets/Images/PicPayChallenge.png'
 import { Linguagem } from "../types/Linguagem";
 
