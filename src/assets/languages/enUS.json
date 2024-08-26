@@ -2,12 +2,15 @@
   "translation": {
     "cargo": "Software Developer",
     "sobre": "Full-Stack Developer with 3 years of experience, postgraduate in software architecture. I have experience in developing APIs using C# and .Net, Domain-Driven Design (DDD), Clean Architecture and Microservices, SQL, MongoDB. I also have knowledge in technologies such as Kafka, Docker, AWS and CI/CD tools. In addition, I have experience in developing visual interfaces using TypeScript, JavaScript, Angular and React.",
-    "btnContato": "Contact me",
     "linkCurriculo": "https://drive.google.com/file/d/1oEgmVe2iLgA6UpmbK6PjT8Lhe5dZ9Tgy",
     "tecnologias": "Technologies",
     "experiencias": "Experiences",
     "tituloProjetos": "Featured Projects",
     "notfound": "Page Not Found",
+    "btn": {
+      "contato": "Contact me",
+      "outrosProjetos": "Other projects"
+    },
     "caixa-web": {
       "cargo": "Caixa Web - Full-Stack Developer",
       "ano": "June, 2023 - Present",

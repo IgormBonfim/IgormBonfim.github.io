@@ -18,7 +18,7 @@ export default function Experiencia(experiencia: ExperienciaType) {
                     </span>
                 <p className="mb-4 text-neutral-400 text-xs sm:text-base text-justify"> {t(experiencia.descricao)} </p>
                 <div className="flex flex-wrap gap-2">
-                    {experiencia.tecnologias.map((tecnologia, index) => (<TecnologiaTag key={index} {...{tecnologia}} ></TecnologiaTag>))}
+                    {experiencia.tecnologias.map((tecnologia, index) => (<TecnologiaTag key={index} {...{tecnologia}}/>))}
                 </div>
             </div>
         </article>

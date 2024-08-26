@@ -6,7 +6,7 @@ export default function Sobre() {
     const SOBRE = "sobre";
     const URL_CURRICULO = "linkCurriculo";
     const URL_WHATSAPP = "https://api.whatsapp.com/send?phone=5527992523204";
-    const BTN_CONTATO = "btnContato";
+    const BTN_CONTATO = "btn.contato";
 
     const { t } = useTranslation();
     return (

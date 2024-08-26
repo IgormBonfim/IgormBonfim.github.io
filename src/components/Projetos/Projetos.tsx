@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Projeto from "../Projeto/Projeto";
 
 export default function Projetos() {
+    const BTN_OUTROS_PROJETOS = "btn.outrosProjetos"
 
     const { t } = useTranslation();
     return (
@@ -15,7 +16,7 @@ export default function Projetos() {
                 ))}
             </div>
             <div className="flex justify-center">
-                <Link to="/projetos" className="rounded-xl border border-blue-700 text-blue-700 hover:text-zinc-100 hover:bg-blue-700 p-4">Outros projetos</Link>
+                <Link to="/projetos" className="rounded-xl border border-blue-700 text-blue-700 hover:text-zinc-100 hover:bg-blue-700 p-4">{t(BTN_OUTROS_PROJETOS)}</Link>
             </div>
         </section>
     )
