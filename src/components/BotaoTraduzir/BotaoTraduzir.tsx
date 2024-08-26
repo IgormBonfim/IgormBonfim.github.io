@@ -24,7 +24,6 @@ export default function BotaoTraduzir({ className }: BotaoTraduzirProps) {
 
     useEffect(() => {
         localStorage.setItem('linguagem', language);
-    //    document.title = "teste" 
     }, [language])
 
     return (
