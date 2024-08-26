@@ -3,12 +3,12 @@ import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import './configs/tradutor.ts'
-import { createHashRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ErrorPage from './pages/Error/ErrorPage.tsx'
 import ProjetosPage from './pages/Projetos/Projetos.tsx'
 import HomePage from './pages/Home/Home.tsx'
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
