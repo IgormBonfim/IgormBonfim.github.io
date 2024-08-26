@@ -39,11 +39,11 @@ export default function BotaoTraduzir({ className }: BotaoTraduzirProps) {
                 leaveTo="transform opacity-0 scale-95"
                 >
                 <MenuItems anchor="bottom" className="flex flex-col p-2 z-20 origin-top-right absolute right-0 mt-2 w-56 rounded-lg shadow-lg bg-neutral-900 ring-1 ring-black ring-opacity-5 focus:outline-none">
-                    {LINGUAGENS.map((linguagem, index) => (
-                        <MenuItem key={index}>
+                    {LINGUAGENS.map((linguagem) => (
+                        <MenuItem key={linguagem.id}>
                             <button className={`${isCurrentLanguage(linguagem.linguagem) && "text-blue-700"} self-start px-5 my-2 data-[focus]:text-blue-500 flex items-center justify-between w-full`} onClick={() => handleChangeLanguage(linguagem.linguagem)}>
                                 <div className="flex gap-2 items-center">
-                                    <img src={`${URL_BANDEIRAS}${linguagem.bandeira}.svg`} className="w-10 h-6 object-cover rounded"></img>
+                                    <img src={`${URL_BANDEIRAS}${linguagem.bandeira}.svg`} alt={`Bandeira ${linguagem.bandeira}`} className=" object-cover rounded" width={40}/>
                                     <span>{linguagem.descricao}</span>
                                 </div>
                                 {isCurrentLanguage(linguagem.linguagem) && (
