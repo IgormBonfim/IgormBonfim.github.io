@@ -3,7 +3,22 @@ import { Projeto } from "../types/projeto";
 import quasar from '../assets/Images/Quasar.png'
 import aluraflix from '../assets/Images/aluraflix.png'
 import picpaychallenge from '../assets/Images/PicPayChallenge.png'
+import { Linguagem } from "../types/Linguagem";
 
+export const LINGUAGENS: Linguagem[] = [
+  {
+    id: 1,
+    linguagem: "ptBR",
+    descricao: "Português",
+    bandeira: "br"
+  },
+  {
+    id: 2,
+    linguagem: "enUS",
+    descricao: "English",
+    bandeira: "us"
+  },
+];
 
 export const EXPERIENCIAS: Experiencia[] = [
     {
@@ -46,7 +61,7 @@ const projetoPicPay: Projeto = {
 const projetoAluralfix: Projeto = {
   titulo: "projetos.Aluraflix.titulo",
   imagem: aluraflix,
-  descricao: "projetos.Aluraflix.descricao",
+  descricao: "Desenvolvedor Full-Stack com 3 anos de experiência, pós graduado em arquitetura de software. Possuo experiência no desenvolvimento de API's utilizando C# e .Net, Design Orientado a Domínio (DDD), Clean Architecture e Microsserviços, SQL, MongoDB. Também tenho conhecimento em tecnologias como Kafka, Docker, AWS e ferramentas de CI/CD. Além disso, possuo experiência no desenvolvimento de interfaces visuais utilizando TypeScript, JavaScript, Angular e React.",
   tecnologias: ["C#", ".Net", "MySQL", "Angular", "HTML", "CSS"],
 };
 

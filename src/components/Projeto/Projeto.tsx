@@ -10,11 +10,11 @@ export default function Projeto(projeto: ProjetoType) {
             <div className="rounded-lg max-w-md overflow-hidden ">
                 <img src={projeto.imagem} alt="Imagem do Projeto" className="transition duration-200 group-hover:scale-105"/>
             </div>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mt-4">
                 {projeto.tecnologias.map((tecnologia, index) => <TecnologiaTag key={index} {...{tecnologia}}/>)}
             </div>
             <h4 className="mt-2 font-bold text-xl text-blue-700 group-hover:text-blue-500">{t(projeto.titulo)}</h4>
-            <p className="py-2 font-light text-justify tracking-tighter">{t(projeto.descricao)}</p>
+            <p className="py-2 text-neutral-400 text-justify tracking-tighter md:max-h-16 overflow-hidden overflow-ellipsis">{t(projeto.descricao)}</p>
         </div>
     )
 }
