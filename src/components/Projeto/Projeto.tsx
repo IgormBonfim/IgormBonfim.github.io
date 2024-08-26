@@ -14,7 +14,7 @@ export default function Projeto(projeto: ProjetoType) {
                 {projeto.tecnologias.map((tecnologia, index) => <TecnologiaTag key={index} {...{tecnologia}}/>)}
             </div>
             <h4 className="mt-2 font-bold text-xl text-blue-700 group-hover:text-blue-500">{t(projeto.titulo)}</h4>
-            <p className="py-2 text-neutral-400 text-justify tracking-tighter md:max-h-16 overflow-hidden overflow-ellipsis">{t(projeto.descricao)}</p>
+            <p className="my-2 text-neutral-400 text-justify tracking-tighter line-clamp-3">{t(projeto.descricao)}</p>
         </div>
     )
 }
