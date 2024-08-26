@@ -1,5 +1,4 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
-import { IoIosGlobe } from "react-icons/io";
 import BotaoTraduzir from "../BotaoTraduzir/BotaoTraduzir";
 
 export default function Footer() {
