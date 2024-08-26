@@ -6,7 +6,7 @@ export default function Experiencia(experiencia: ExperienciaType) {
 
     const { t } = useTranslation();
     return (
-        <article className="mb-8 flex flex-wrap lg:justify-center">
+        <article className="mb-8 flex flex-wrap lg:justify-center ]">
             <div className="w-full lg:w-1/4">
                 <p className="mb-2 text-sm text-neutral-400">{t(experiencia.ano)}</p>
             </div>

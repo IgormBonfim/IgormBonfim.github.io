@@ -5,6 +5,8 @@ export default function Sobre() {
     const CARGO = "cargo";
     const SOBRE = "sobre";
     const URL_CURRICULO = "linkCurriculo";
+    const URL_WHATSAPP = "https://api.whatsapp.com/send?phone=5527992523204";
+    const BTN_CONTATO = "btnContato";
 
     const { t } = useTranslation();
     return (
@@ -16,7 +18,7 @@ export default function Sobre() {
                     {t(SOBRE)}
                 </p>
                 <div className="flex justify-center gap-4 text-lg">
-                    <button className="rounded-xl bg-blue-700 hover:bg-blue-600 p-4">Entre em contato</button>
+                        <a href={URL_WHATSAPP} target="_blank" className="rounded-xl bg-blue-700 hover:bg-blue-600 p-4">{t(BTN_CONTATO)}</a>
                     <a href={t(URL_CURRICULO)} target="_blank" className="rounded-xl border border-blue-700 text-blue-700 hover:text-zinc-100 hover:bg-blue-700 p-4">Download CV</a>
                 </div>
             </div>

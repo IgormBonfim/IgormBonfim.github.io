@@ -1,6 +1,6 @@
 import { Menu, MenuButton, MenuItems, MenuItem, Transition } from "@headlessui/react";
 import { IoIosGlobe } from "react-icons/io";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { LINGUAGENS } from "../../constants";
 import { FaCheck } from "react-icons/fa6";
@@ -13,16 +13,19 @@ type BotaoTraduzirProps = {
 
 export default function BotaoTraduzir({ className }: BotaoTraduzirProps) {
     const { i18n: {changeLanguage, language} } = useTranslation();
-    const [currentLanguage, setCurrentLanguage] = useState(language)
-  
+
     const handleChangeLanguage = (linguagem: string) => {
-      setCurrentLanguage(linguagem);
       changeLanguage(linguagem);
     }
 
     const isCurrentLanguage = (linguagem: string): boolean => {
-        return linguagem == currentLanguage;
+        return linguagem === language;
     }
+
+    useEffect(() => {
+        localStorage.setItem('linguagem', language);
+    //    document.title = "teste" 
+    }, [language])
 
     return (
         <Menu>
