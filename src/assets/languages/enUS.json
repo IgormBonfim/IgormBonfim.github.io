@@ -15,32 +15,32 @@
       "cargo": "Caixa Web - Full-Stack Developer",
       "ano": "June, 2023 - Present",
       "empresa": "Autoglass",
-      "descricao": "Atuo no time de desenvolvimento do produto de faturamento e emissão de notas da empresa utilizando .Net, Angular, Oracle e Kafka. Aplicação dos princípios de Design Orientado a Domínio (DDD) e Clean Architecture. Utilização de metodologias ágeis, incluindo Scrum e Kanban, para o gerenciamento de projetos."
+      "descricao": "I am currently working on the development of the company's billing and invoicing product using .Net, Angular, Oracle, and Kafka. I apply Domain-Driven Design (DDD) principles and Clean Architecture. I also utilize agile methodologies, including Scrum and Kanban, for project management."
     },
     "grc": {
       "cargo": "Gestão de Risco ao Crédito - Full-Stack Developer",
       "ano": "June, 2022 - June, 2023",
       "empresa": "Autoglass",
-      "descricao": "Atuei no time de desenvolvimento do produto de análise de crédito financeiro utilizando .Net, Angular, MongoDB, SQS. Desempenhei um papel crucial no desenvolvimento do processo de análise automatizada, implementando o processo assíncrono de fila com o SQS. E na reestruturação do armazenamento de anexos. Além disso, utilizávamos a metodologia ágil Scrum."
+      "descricao": "I worked on the development team for the financial credit analysis product using .Net, Angular, MongoDB, and SQS. I played a crucial role in developing the automated analysis process, implementing the asynchronous queue process with SQS, and restructuring attachment storage. Additionally, we used the Scrum agile methodology."
     },
     "aksie": {
       "cargo": "Aksie - Front-end Developer",
       "ano": "March, 2023 - July, 2023",
       "empresa": "Freelance",
-      "descricao": "Atuei como desenvolvedor Front-end para uma plataforma de gerenciamento contábil. Utilizando as tecnologias Angular, TypeScript, SASS."
+      "descricao": "I worked as a Front-end Developer for a financial management platform, utilizing Angular, TypeScript, and SASS technologies."
     },
     "projetos": {
       "quasar": {
         "titulo": "Quasar E-Commerce",
-        "descricao": "Projeto E-commerce desenvolvido em equipe para o aprendizado. Utilizando Angular para o front-end e C# para o back-end."
+        "descricao": "E-commerce project developed as a team for learning purposes, utilizing Angular for the front-end and C# for the back-end."
       },
       "PicPayChallenge": {
         "titulo": "PicPayChallenge",
-        "descricao": "Desafio técnico no PicPay, incluindo implementação do Kafka e integração com o PagSeguro para diversos métodos de pagamento."
+        "descricao": "Technical challenge at PicPay, including the implementation of Kafka and integration with PagSeguro for various payment methods."
       },
       "Aluraflix": {
         "titulo": "Aluraflix",
-        "descricao": "Projeto desenvolvido durante a quinta edição do challenge backend da Alura. Desenvolvido utilizando Angular, C#, Asp.Net e MySQL."
+        "descricao": "Project developed during the fifth edition of Alura's backend challenge. Built using Angular, C#, Asp.Net, and MySQL."
       }
     }
   }
