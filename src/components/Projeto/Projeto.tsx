@@ -6,7 +6,7 @@ export default function Projeto(projeto: ProjetoType) {
 
     const { t } = useTranslation();
     return (
-        <div className="group max-w-md cursor-pointer">
+        <article className="group max-w-md cursor-pointer">
             <div className="rounded-lg max-w-md overflow-hidden ">
                 <img src={projeto.imagem} alt="Imagem do Projeto" className="transition duration-200 group-hover:scale-105"/>
             </div>
@@ -15,6 +15,6 @@ export default function Projeto(projeto: ProjetoType) {
             </div>
             <h4 className="mt-2 font-bold text-xl text-blue-700 group-hover:text-blue-500">{t(projeto.titulo)}</h4>
             <p className="my-2 text-neutral-400 text-justify tracking-tighter line-clamp-3">{t(projeto.descricao)}</p>
-        </div>
+        </article>
     )
 }
