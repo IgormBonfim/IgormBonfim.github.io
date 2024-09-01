@@ -53,6 +53,7 @@ const projetoQuasar: Projeto = {
   imagem: quasar,
   descricao: "projetos.quasar.descricao",
   tecnologias: ["C#", ".Net", "Angular", "MySQL"],
+  repo: "https://github.com/IgormBonfim/quasar-ecommerce"
 };
 
 const projetoPicPay: Projeto = {
@@ -60,6 +61,7 @@ const projetoPicPay: Projeto = {
   imagem: picpaychallenge,
   descricao:"projetos.PicPayChallenge.descricao",
   tecnologias: ["C#", ".Net", "React", "Next.js", "MySQL", "Kafka"],
+  repo: "https://github.com/IgormBonfim/PicPayChallenge.Payment"
 };
 
 const projetoAluralfix: Projeto = {
@@ -67,6 +69,7 @@ const projetoAluralfix: Projeto = {
   imagem: aluraflix,
   descricao: "projetos.Aluraflix.descricao",
   tecnologias: ["C#", ".Net", "MySQL", "Angular", "HTML", "CSS"],
+  repo: "https://github.com/IgormBonfim/Challenge_Backend_AluraFlix"
 };
 
 export const PROJETOS_EM_DESTAQUE: Projeto[] = [
@@ -81,24 +84,28 @@ export const PROJETOS: Projeto[] = [
     titulo: "GerenciamentoFuncionarios",
     imagem: gerenciamentoFuncionarios,
     descricao: "Projeto CRUD de gerenciamento de funcionários, desenvolvido utilizando Angular e Spring, com o intuito de aprendizado.",
-    tecnologias: ["Java", "Spring", "MySQL", "Angular", "TypeScript"]
+    tecnologias: ["Java", "Spring", "MySQL", "Angular", "TypeScript"],
+    repo: "https://github.com/IgormBonfim/GerenciamentoFuncionarios"
   },
   {
     titulo: "Pokedex",
     imagem: pokedex,
     descricao: "Projeto de uma Pokedex desenvolvido utilizando Angular e a PokéApi.",
-    tecnologias: ["Angular", "TypeScript", "Html", "CSS", "RxJs"]
+    tecnologias: ["Angular", "TypeScript", "Html", "CSS", "RxJs"],
+    repo: "https://github.com/IgormBonfim/Angular-Pokedex"
   },
   {
     titulo: "Challenge Backend Finanças",
     imagem: ChallengeBackendFinancas,
     descricao: "Projeto desenvolvido durante a terceira edição do Challenge backend da Alura. Desenvolvido em C#, Asp.Net e MySQL.",
-    tecnologias: ["C#", ".Net", "MySQL"]
+    tecnologias: ["C#", ".Net", "MySQL"],
+    repo: "https://github.com/IgormBonfim/Challenge_Backend_Financas"
   },
   {
     titulo: "BotJoshue",
     imagem: botJoshue,
     descricao: "Um bot para o Discord desenvolvido utilizando JavaScript, Node.js, Discord.js e Youtube API.",
-    tecnologias: ["Node.Js", "JavaScript", "Discord.js", "YoutubeAPI"]
+    tecnologias: ["Node.Js", "JavaScript", "Discord.js", "YoutubeAPI"],
+    repo: "https://github.com/IgormBonfim/BotJoshue"
   },
 ]
