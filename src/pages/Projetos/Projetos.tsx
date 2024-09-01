@@ -1,4 +1,3 @@
-import { t } from "i18next";
 import Projeto from "../../components/Projeto/Projeto";
 import { PROJETOS } from "../../constants";
 
