@@ -1,9 +1,11 @@
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 import Projeto from "../../components/Projeto/Projeto";
 import { PROJETOS } from "../../constants/projetos";
 
 export default function ProjetosPage() {
   const MEUS_PROJETOS = "meusProjetos"
+  
+  const { t } = useTranslation();
 
   return (
     <section className="pb-4 lg:mb-36">
