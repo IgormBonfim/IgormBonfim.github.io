@@ -1,13 +1,32 @@
 import { ReactNode } from "react";
+import { PlacesType, Tooltip } from "react-tooltip";
 
-interface Props{
+interface TecnologiaProps {
     children: ReactNode;
-}  
+    tooltipId?: string;
+    tooltipContent?: string;
+    tooltipPlace?: PlacesType;
+    link?: string;
+}
 
-export default function Tecnologia({ children }: Props) {
+export default function Tecnologia({
+    link,
+    children,
+    tooltipId,
+    tooltipContent,
+    tooltipPlace,
+}: TecnologiaProps) {
     return (
-        <div className="rounded-2xl border-2 border-neutral-800 p-4">
+        <a
+            href={link}
+            target="_blank"
+            className={`${link} && "cursor-pointer"} rounded-2xl border-2 border-neutral-800 p-4`}
+            data-tooltip-id={tooltipId}
+            data-tooltip-content={tooltipContent}
+            data-tooltip-place={tooltipPlace}
+        >
+            <Tooltip id={tooltipId} />
             {children}
-        </div>
-    )
+        </a>
+    );
 }

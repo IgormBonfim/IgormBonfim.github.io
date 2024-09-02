@@ -8,6 +8,7 @@ import ErrorPage from './pages/Error/ErrorPage.tsx'
 import ProjetosPage from './pages/Projetos/Projetos.tsx'
 import HomePage from './pages/Home/Home.tsx'
 import ArtigosPage from './pages/Artigos/ArtigosPage.tsx'
+import 'react-tooltip/dist/react-tooltip.css'
 
 const router = createBrowserRouter([
   {
