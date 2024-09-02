@@ -1,10 +1,10 @@
 import { Artigo } from "../types/artigo";
-import teste from "../assets/Images/teste.webp"
+import binarySearcImg from "../assets/Images/binarySearch.webp"
 
 const binarySearch: Artigo = {
-    titulo: "Algoritmos: Busca Binária",
-    descricao: "Artigo sobre o algoritmo de Busca Binária, com implementação na lingugagem Golang.",
-    imagem: teste,
+    titulo: "artigos.buscaBinaria.titulo",
+    descricao: "artigos.buscaBinaria.descricao",
+    imagem: binarySearcImg,
     link: "https://medium.com/@igorbonfim/algoritmos-busca-bin%C3%A1ria-5c665534f0c6"
 }
 

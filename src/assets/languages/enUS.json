@@ -13,7 +13,7 @@
     "btn": {
       "contato": "Contact me",
       "outrosProjetos": "Other projects",
-      "outrosArtigos": "Outros artigos"
+      "outrosArtigos": "Other articles"
     },
     "caixa-web": {
       "cargo": "Caixa Web - Full-Stack Developer",
@@ -61,6 +61,12 @@
       "botJoshue": {
         "titulo": "BotJoshue",
         "descricao": "A Discord bot developed using JavaScript, Node.js, Discord.js, and the YouTube API."
+      }
+    },
+    "artigos": {
+      "buscaBinaria": {
+        "titulo": "Algorithms: Binary Search",
+        "descricao": "An article on the Binary Search algorithm, where I explain how the algorithm works, providing practical examples and tests in various scenarios. The article also includes a Golang implementation of the algorithm."
       }
     }
   }

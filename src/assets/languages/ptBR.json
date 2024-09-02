@@ -62,6 +62,12 @@
           "titulo": "BotJoshue",
           "descricao": "Um bot para o Discord desenvolvido utilizando JavaScript, Node.js, Discord.js e Youtube API."
         }
+      },
+      "artigos": {
+        "buscaBinaria": {
+          "titulo": "Algoritmos: Busca Binária",
+          "descricao": "Artigo sobre o algoritmo de Busca Binária. Onde eu mostro como o algoritmo funciona, com exemplos práticos e testes em diferentes cenários. Também mostro a implementação na linguagem Golang."
+        }
       }
   }
 }
