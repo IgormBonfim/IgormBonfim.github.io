@@ -6,11 +6,14 @@
     "tecnologias": "Technologies",
     "experiencias": "Experiences",
     "tituloProjetos": "Featured Projects",
+    "tituloArtigos": "Featured Articles",
     "meusProjetos": "My Projects",
+    "meusArtigos": "My Articles",
     "notfound": "Page Not Found",
     "btn": {
       "contato": "Contact me",
-      "outrosProjetos": "Other projects"
+      "outrosProjetos": "Other projects",
+      "outrosArtigos": "Outros artigos"
     },
     "caixa-web": {
       "cargo": "Caixa Web - Full-Stack Developer",
