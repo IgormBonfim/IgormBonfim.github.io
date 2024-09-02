@@ -2,7 +2,7 @@ import { Menu, MenuButton, MenuItems, MenuItem, Transition } from "@headlessui/r
 import { IoIosGlobe } from "react-icons/io";
 import { Fragment, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { LINGUAGENS } from "../../constants";
+import { LINGUAGENS } from "../../constants/linguagens";
 import { FaCheck } from "react-icons/fa6";
 
 const URL_BANDEIRAS = "https://flagcdn.com/"

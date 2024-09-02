@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next"
-import { PROJETOS_EM_DESTAQUE } from "../../constants";
 import { Link } from "react-router-dom";
 import Projeto from "../Projeto/Projeto";
+import { PROJETOS_EM_DESTAQUE } from "../../constants/projetos";
 
 export default function Projetos() {
     const BTN_OUTROS_PROJETOS = "btn.outrosProjetos"

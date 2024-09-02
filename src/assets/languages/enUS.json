@@ -6,6 +6,7 @@
     "tecnologias": "Technologies",
     "experiencias": "Experiences",
     "tituloProjetos": "Featured Projects",
+    "meusProjetos": "My Projects",
     "notfound": "Page Not Found",
     "btn": {
       "contato": "Contact me",
@@ -41,6 +42,22 @@
       "Aluraflix": {
         "titulo": "Aluraflix",
         "descricao": "Project developed during the fifth edition of Alura's backend challenge. Built using Angular, C#, Asp.Net, and MySQL."
+      },
+      "gerenciamentoFuncionarios": {
+        "titulo": "EmployeeManagement",
+        "descricao": "CRUD employee management project, developed using Angular and Spring, with the purpose of learning."
+      },
+      "pokedex": {
+        "titulo": "Pokedex",
+        "descricao": "Pokedex project developed using Angular and the PokéApi."
+      },
+      "challengeBackendFinancas": {
+        "titulo": "Challeng Backend Financas",
+        "descricao": "Project developed during the third edition of Alura's backend Challenge. Built using C#, Asp.Net, and MySQL."
+      },
+      "botJoshue": {
+        "titulo": "BotJoshue",
+        "descricao": "A Discord bot developed using JavaScript, Node.js, Discord.js, and the YouTube API."
       }
     }
   }

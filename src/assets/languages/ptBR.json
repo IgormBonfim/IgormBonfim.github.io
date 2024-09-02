@@ -6,6 +6,7 @@
       "tecnologias": "Tecnologias",
       "experiencias": "Experiências",
       "tituloProjetos": "Projetos em destaque",
+      "meusProjetos": "Meus Projetos",
       "notfound": "Página não encontrada",
       "btn": {
         "contato": "Entre em contato",
@@ -41,6 +42,22 @@
         "Aluraflix": {
           "titulo": "Aluraflix",
           "descricao": "Projeto desenvolvido durante a quinta edição do challenge backend da Alura. Desenvolvido utilizando Angular, C#, Asp.Net e MySQL."
+        },
+        "gerenciamentoFuncionarios": {
+          "titulo": "Aluraflix",
+          "descricao": "Projeto CRUD de gerenciamento de funcionários, desenvolvido utilizando Angular e Spring, com o intuito de aprendizado."
+        },
+        "pokedex": {
+          "titulo": "Pokedex",
+          "descricao": "Projeto de uma Pokedex desenvolvido utilizando Angular e a PokéApi."
+        },
+        "challengeBackendFinancas": {
+          "titulo": "Challeng Backend Financas",
+          "descricao": "Projeto desenvolvido durante a terceira edição do Challenge backend da Alura. Desenvolvido em C#, Asp.Net e MySQL."
+        },
+        "botJoshue": {
+          "titulo": "BotJoshue",
+          "descricao": "Um bot para o Discord desenvolvido utilizando JavaScript, Node.js, Discord.js e Youtube API."
         }
       }
   }

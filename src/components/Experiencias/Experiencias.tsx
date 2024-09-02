@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next"
-import { EXPERIENCIAS } from "../../constants";
 import Experiencia from "../Experiencia/Experiencia";
+import { EXPERIENCIAS } from "../../constants/experiencias";
 
 export default function Experiencias() {
 
