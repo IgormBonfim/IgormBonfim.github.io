@@ -61,12 +61,20 @@
       "botJoshue": {
         "titulo": "BotJoshue",
         "descricao": "A Discord bot developed using JavaScript, Node.js, Discord.js, and the YouTube API."
+      },
+      "ShortUrl": {
+        "titulo": "GoShort",
+        "descricao": "GoShort is a simple and efficient URL shortening service designed for fast redirections."
       }
     },
     "artigos": {
       "buscaBinaria": {
         "titulo": "Algorithms: Binary Search",
         "descricao": "An article on the Binary Search algorithm, where I explain how the algorithm works, providing practical examples and tests in various scenarios. The article also includes a Golang implementation of the algorithm."
+      },
+      "selectionSort": {
+        "titulo": "Algorithms: Selection Sort",
+        "descricao": "An article about the Selection Sort algorithm, explaining its step-by-step process with practical examples and tests in different scenarios. It also includes an implementation in Golang."
       }
     }
   }

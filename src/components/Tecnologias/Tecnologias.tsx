@@ -11,6 +11,7 @@ import { SiTypescript } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import Tecnologia from "../Tecnologia/Tecnologia";
+import { FaGolang } from "react-icons/fa6";
 
 export default function Tecnologias() {
     const { t } = useTranslation();
@@ -25,6 +26,14 @@ export default function Tecnologias() {
                     link="https://dotnet.microsoft.com/pt-br/languages/csharp"
                 >
                     <SiCsharp className="text-6xl text-violet-800"></SiCsharp>
+                </Tecnologia>
+                <Tecnologia
+                    tooltipId="golang"
+                    tooltipContent="Golang"
+                    tooltipPlace="top"
+                    link="https://go.dev/"
+                >
+                    <FaGolang className="text-6xl text-sky-500"></FaGolang>
                 </Tecnologia>
                 <Tecnologia
                     tooltipId=".net"

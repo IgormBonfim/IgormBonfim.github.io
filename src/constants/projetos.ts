@@ -1,6 +1,7 @@
 import { Projeto } from "../types/projeto";
 import quasar from '../assets/Images/Quasar.png'
 import aluraflix from '../assets/Images/Aluraflix.png'
+import shortUrl from '../assets/Images/shorturl.png'
 import picpaychallenge from '../assets/Images/PicPayChallenge.png'
 import ChallengeBackendFinancas from '../assets/Images/ChallengeBackendFinancas.png'
 import gerenciamentoFuncionarios from '../assets/Images/GerenciamentoFuncionarios.gif'
@@ -30,15 +31,24 @@ const projetoQuasar: Projeto = {
     tecnologias: ["C#", ".Net", "MySQL", "Angular", "HTML", "CSS"],
     repo: "https://github.com/IgormBonfim/Challenge_Backend_AluraFlix"
   };
+
+  const projetoShortUrl: Projeto = {
+    titulo: "projetos.ShortUrl.titulo",
+    imagem: shortUrl,
+    descricao: "projetos.ShortUrl.descricao",
+    tecnologias: ["Go", "Next.Js", "TypeScript", "MySQL", "Nginx", "Docker"],
+    repo: "https://www.goshort.tech"
+  };
   
   export const PROJETOS_EM_DESTAQUE: Projeto[] = [
-    projetoQuasar,
+    projetoShortUrl,
     projetoPicPay,
-    projetoAluralfix
+    projetoQuasar
   ];
   
   export const PROJETOS: Projeto[] = [
     ...PROJETOS_EM_DESTAQUE,
+    projetoAluralfix,
     {
       titulo: "projetos.gerenciamentoFuncionarios.titulo",
       imagem: gerenciamentoFuncionarios,
